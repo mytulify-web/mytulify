@@ -5,7 +5,7 @@ import path from "node:path";
 import { createHash } from "node:crypto";
 import { AVAILABLE_TOOLS, CATEGORIES, toolHref } from "@/lib/catalog";
 import { isNonCanonicalToolPath } from "@/lib/catalog/canonical-redirects";
-import { getAllPosts, postFileMtime } from "@/lib/blog";
+import { getIndexablePosts, postFileMtime } from "@/lib/blog";
 import { site } from "@/lib/site";
 
 const ROOT = process.cwd();
@@ -262,7 +262,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  const blogPosts = getAllPosts().map((p) => {
+  const blogPosts = getIndexablePosts().map((p) => {
     const updated = p.updatedDate ? new Date(p.updatedDate) : null;
     return {
       url: `${site.url}/blog/${p.slug}`,

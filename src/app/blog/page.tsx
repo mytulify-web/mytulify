@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { BlogCategoryNav } from "@/components/blog/BlogCategoryNav";
-import { formatPostDate, getAllPosts, getBlogCategory, type BlogPost } from "@/lib/blog";
+import { formatPostDate, getIndexablePosts, getBlogCategory, type BlogPost } from "@/lib/blog";
 import { site } from "@/lib/site";
 import { englishOnlyPageMeta, clampMetaDescription } from "@/lib/seo";
 import { getMetadataLocale } from "@/i18n/locale";
@@ -48,7 +48,7 @@ export default async function BlogIndexPage({
   const sp = await searchParams;
   const categorySlug = typeof sp.category === "string" ? sp.category : undefined;
   const category = getBlogCategory(categorySlug);
-  const posts = getAllPosts();
+  const posts = getIndexablePosts();
   const filtered = category ? posts.filter((p) => p.category === category.slug) : posts;
 
   return (
