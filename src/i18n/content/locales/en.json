@@ -1199,7 +1199,54 @@
     },
     "image-tools/duplicate-photo-finder": {
       "name": "Duplicate Photo Finder",
-      "description": "Find exact and similar photos in your browser — difference hash, keep the highest-resolution copy, folder scan, no upload."
+      "description": "Find exact and similar photos in your browser — difference hash, keep the highest-resolution copy, folder scan, no upload.",
+      "metaTitle": "Duplicate Photo Finder Online Free – No Upload | Mytulify",
+      "metaDescription": "Find duplicate and similar photos online in your browser. Keep the highest-resolution copy, scan a folder, and export a delete list. No upload.",
+      "about": [
+        "Duplicate Photo Finder is a free online tool that groups identical files and visually similar photos without uploading them. It runs in your browser with difference hash, average hash, or both, plus an MD5 check for byte-identical copies.",
+        "WhatsApp forwards, iPhone bursts, HEIC plus JPG exports, and screenshot repeats often look the same but are not the same file. Visual hashing groups those copies. Keep the highest-resolution or largest file automatically, or pin the shot you want to save.",
+        "Limit matches to one folder, ignore tiny thumbnails, filter by filename, and export the delete list as text, CSV, or JSON. The browser cannot erase files on disk — you remove the listed copies in your file manager."
+      ],
+      "howTo": {
+        "title": "How to find duplicate photos online (without uploading)",
+        "steps": [
+          "Drop photos or select a folder — JPG, PNG, WebP, HEIC, and GIF stay on your device.",
+          "Use Similar photos with difference hash, or Exact duplicates for identical bytes. Set the threshold and choose which copy to keep.",
+          "Pin any photo you want to force-keep, then export the delete list as text, CSV, or JSON."
+        ]
+      },
+      "faq": [
+        {
+          "q": "What is a duplicate photo finder?",
+          "a": "A duplicate photo finder scans a set of images and groups files that match — either exactly (same bytes) or visually (same scene after resize, re-save, or light edits). Mytulify’s tool does this locally in your browser so photos never leave your device."
+        },
+        {
+          "q": "How is perceptual hashing different from exact duplicate detection?",
+          "a": "Exact detection compares MD5 hashes — only byte-identical copies match. Difference hash and average hash fingerprint how a photo looks, so a resized WhatsApp save, a recompressed JPG, or a HEIC export can still group with the original."
+        },
+        {
+          "q": "Are my photos uploaded to Mytulify?",
+          "a": "No. All analysis runs client-side. We do not store, transmit, or process your images on our servers. Close the tab and the scan data is gone."
+        },
+        {
+          "q": "What similarity threshold should I use?",
+          "a": "Start at 5 with difference hash. Use 0–3 for near-identical copies, 8–12 for resized or recompressed saves, and higher only when you also want burst frames. Choose Both must agree if unrelated photos start grouping."
+        },
+        {
+          "q": "Does this delete files automatically?",
+          "a": "No — browsers cannot delete files on your disk without permission. The tool marks safe-to-delete copies and lets you export a path list. You remove files manually in your file manager or gallery app."
+        },
+        {
+          "q": "Is this duplicate image finder free?",
+          "a": "Yes. Unlimited scans on Mytulify’s free plan — no signup required. Pair it with our Duplicate File Finder for non-image duplicates across any file type."
+        }
+      ],
+      "related": [
+        "image-tools/compress-image",
+        "image-tools/heic-to-jpg",
+        "developer-tools/duplicate-file-finder",
+        "image-tools/resize-image"
+      ]
     },
     "pdf-tools/merge-pdf": {
       "name": "Merge PDF",
@@ -1894,8 +1941,8 @@
     "seo-web-tools/url-index-status-checker": {
       "name": "URL Index Status Checker",
       "description": "Soft-check index presence and open Google/Bing site: verification links for any URL.",
-      "metaTitle": "URL Index Status Checker – Google & Bing site: Links | Mytulify",
-      "metaDescription": "Check if a URL looks indexed with a soft Bing signal plus one-click Google and Bing site: verification links.",
+      "metaTitle": "URL Index Checker for Google & Bing | Mytulify",
+      "metaDescription": "Check a URL with a best-effort Bing signal, then verify index presence using one-click Google and Bing site: searches.",
       "about": [
         "Automatic “is it indexed?” checks are best-effort without Search Console API access. This tool runs a soft Bing HTML check and always gives you Google/Bing site: links to confirm.",
         "Mark confirmed URLs in the URL Indexing Toolkit tracker for campaign reporting."
@@ -3309,57 +3356,6 @@
         "image-tools/image-color-picker",
         "image-tools/color-extractor-from-image",
         "color-tools/color-palette-generator"
-      ]
-    },
-    "image-tools/duplicate-photo-finder": {
-      "name": "Duplicate Photo Finder",
-      "description": "Find exact and similar photos in your browser — difference hash, keep the highest-resolution copy, folder scan, no upload.",
-      "metaTitle": "Duplicate Photo Finder Online Free – No Upload | Mytulify",
-      "metaDescription": "Find duplicate and similar photos online in your browser. Keep the highest-resolution copy, scan a folder, and export a delete list. No upload.",
-      "about": [
-        "Duplicate Photo Finder is a free online tool that groups identical files and visually similar photos without uploading them. It runs in your browser with difference hash, average hash, or both, plus an MD5 check for byte-identical copies.",
-        "WhatsApp forwards, iPhone bursts, HEIC plus JPG exports, and screenshot repeats often look the same but are not the same file. Visual hashing groups those copies. Keep the highest-resolution or largest file automatically, or pin the shot you want to save.",
-        "Limit matches to one folder, ignore tiny thumbnails, filter by filename, and export the delete list as text, CSV, or JSON. The browser cannot erase files on disk — you remove the listed copies in your file manager."
-      ],
-      "howTo": {
-        "title": "How to find duplicate photos online (without uploading)",
-        "steps": [
-          "Drop photos or select a folder — JPG, PNG, WebP, HEIC, and GIF stay on your device.",
-          "Use Similar photos with difference hash, or Exact duplicates for identical bytes. Set the threshold and choose which copy to keep.",
-          "Pin any photo you want to force-keep, then export the delete list as text, CSV, or JSON."
-        ]
-      },
-      "faq": [
-        {
-          "q": "What is a duplicate photo finder?",
-          "a": "A duplicate photo finder scans a set of images and groups files that match — either exactly (same bytes) or visually (same scene after resize, re-save, or light edits). Mytulify’s tool does this locally in your browser so photos never leave your device."
-        },
-        {
-          "q": "How is perceptual hashing different from exact duplicate detection?",
-          "a": "Exact detection compares MD5 hashes — only byte-identical copies match. Difference hash and average hash fingerprint how a photo looks, so a resized WhatsApp save, a recompressed JPG, or a HEIC export can still group with the original."
-        },
-        {
-          "q": "Are my photos uploaded to Mytulify?",
-          "a": "No. All analysis runs client-side. We do not store, transmit, or process your images on our servers. Close the tab and the scan data is gone."
-        },
-        {
-          "q": "What similarity threshold should I use?",
-          "a": "Start at 5 with difference hash. Use 0–3 for near-identical copies, 8–12 for resized or recompressed saves, and higher only when you also want burst frames. Choose Both must agree if unrelated photos start grouping."
-        },
-        {
-          "q": "Does this delete files automatically?",
-          "a": "No — browsers cannot delete files on your disk without permission. The tool marks safe-to-delete copies and lets you export a path list. You remove files manually in your file manager or gallery app."
-        },
-        {
-          "q": "Is this duplicate image finder free?",
-          "a": "Yes. Unlimited scans on Mytulify’s free plan — no signup required. Pair it with our Duplicate File Finder for non-image duplicates across any file type."
-        }
-      ],
-      "related": [
-        "image-tools/compress-image",
-        "image-tools/heic-to-jpg",
-        "developer-tools/duplicate-file-finder",
-        "image-tools/resize-image"
       ]
     },
     "calculators/profit-margin-calculator": {
@@ -4786,8 +4782,8 @@
     "home-trade-calculators/car-trade-equity-calculator": {
       "name": "Car Trade-In Calculator",
       "description": "Use this car trade-in calculator to compare your dealer's trade-in offer with your loan payoff, estimate positive or negative equity, and compare sales tax with and without a trade-in.",
-      "metaTitle": "Car Trade-In Calculator – Calculate Trade-In Value & Equity",
-      "metaDescription": "Free car trade-in calculator: compare your offer with the loan payoff, see positive or negative equity, and estimate sales tax with vs without a trade.",
+      "metaTitle": "Car Trade-In Calculator | Equity & Loan Payoff | Mytulify",
+      "metaDescription": "Compare your car trade-in offer with your loan payoff, calculate positive or negative equity, and estimate possible sales-tax savings on your next vehicle.",
       "sections": [
         {
           "heading": "What Is Trade-In Equity?",
@@ -4889,6 +4885,10 @@
         "calculators/sales-tax-calculator",
         "calculators/debt-payoff-calculator"
       ]
+    },
+    "home-trade-calculators/ev-charging-cost-calculator": {
+      "metaTitle": "EV Charging Cost Calculator | Mytulify",
+      "metaDescription": "Estimate EV charging cost, electricity use in kWh, and charging time from your driving distance, vehicle efficiency, electricity rate, and charger power."
     }
   },
   "strings": {
