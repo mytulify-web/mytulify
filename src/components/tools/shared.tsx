@@ -4,6 +4,7 @@ import * as React from "react";
 import { Icon } from "@/components/ui/Icon";
 import { Button } from "@/components/ui/primitives";
 import { cn, copyText, download as triggerDownload, readAsDataURL, readAsText } from "@/lib/utils";
+import { trackAnalyticsEvent } from "@/lib/analytics-events";
 
 /* -------------------------------- CopyButton ------------------------------- */
 export function CopyButton({
@@ -27,6 +28,9 @@ export function CopyButton({
       disabled={!value}
       onClick={async () => {
         if (await copyText(value)) {
+          trackAnalyticsEvent("tool_result_copy", {
+            page_path: window.location.pathname,
+          });
           setCopied(true);
           setTimeout(() => setCopied(false), 1400);
         }
@@ -57,7 +61,13 @@ export function DownloadButton({
       size="sm"
       className={className}
       disabled={!value}
-      onClick={() => triggerDownload(value, filename, mime)}
+      onClick={() => {
+        trackAnalyticsEvent("tool_result_download", {
+          page_path: window.location.pathname,
+          file_type: mime ?? "text/plain",
+        });
+        triggerDownload(value, filename, mime);
+      }}
     >
       <Icon name="Download" className="h-4 w-4" /> Download
     </Button>
