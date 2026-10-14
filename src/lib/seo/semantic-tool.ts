@@ -171,12 +171,6 @@ export function semanticLead(name: string, description: string): string {
   return `Use the free ${name} to ${d.rest}.`;
 }
 
-function needLine(description: string): string {
-  const d = described(description);
-  if (!d.verb) return `this is the job: ${d.full}`;
-  return `to ${d.rest}`;
-}
-
 function privacy(tool: SemanticTool): string {
   if (tool.clientSide) {
     return `${tool.name} runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.`;
@@ -195,6 +189,33 @@ function relatedSentence(tool: SemanticTool): string {
 }
 
 /** On-page copy aimed at the tool name as the search phrase, using that tool's description as the scope. */
+const VERIFICATION_GUIDANCE: Record<string, string> = {
+  "ai-tools": "Compare names, dates, numbers, and claims with the source. Test one prompt that includes an explicit constraint before using the draft.",
+  "handwriting-ocr": "Compare names, digits, punctuation, and line breaks with the original image. Treat uncertain characters as items to review, not confirmed text.",
+  "freelancer-tools": "Check currency, dates, deliverables, revision counts, payment timing, and applicable local rules before sending or signing anything.",
+  "devops-tools": "Validate syntax with the actual CLI or parser, then review environment names, permissions, ports, and secrets before applying a generated config.",
+  "health-tools": "Confirm the units and formula used. Do not use a calculator result to diagnose a condition or change medication.",
+  "text-tools": "Test punctuation, whitespace, line breaks, and Unicode characters that matter to your task.",
+  "developer-tools": "Run the result against a valid sample and a malformed sample. Verify syntax against the version of the language or library in your project.",
+  "security-password-tools": "Check the algorithm and settings against your security requirements. Never paste a real password or secret into a server-based tool.",
+  "pdf-tools": "Open the downloaded file and check page count, order, orientation, searchable text, and visual quality.",
+  "image-tools": "Inspect the downloaded file's dimensions, transparency, crop, compression, and quality at full size.",
+  "color-tools": "Check the exact color values and contrast against the actual foreground and background where the colors will appear.",
+  calculators: "Check input units, assumptions, rounding, and one result against an independent calculation or an authoritative source.",
+  "unit-converters": "Confirm that the source and target units describe the same kind of measurement, and that displayed rounding suits the task.",
+  "seo-web-tools": "Verify the live URL, rendered HTML, canonical, and robots directives. A tool result is not a promise that Google will index or rank a page.",
+  "social-media-tools": "Check the platform's current limits and preview line breaks, mentions, and formatting before posting.",
+  "content-creator-tools": "Compare the output with the source recording or brief, especially names, timestamps, factual claims, and omitted details.",
+  "converters-generators": "Validate the output in the program or parser that will consume it; check encoding, delimiters, and required fields.",
+  "home-trade-calculators": "Recheck units, load assumptions, waste, local codes, and manufacturer instructions. Use a qualified professional for safety-critical work.",
+};
+
+function verificationGuidance(categorySlug: string): string {
+  return VERIFICATION_GUIDANCE[categorySlug] ??
+    "Compare the output with the input and the requirement you started with. Test an edge case before relying on the result.";
+}
+
+/** Page copy uses category-specific verification guidance instead of repeated filler paragraphs. */
 export function semanticSections(tool: SemanticTool): SemanticSection[] {
   const angle = angleFor(tool.categorySlug);
   return [
@@ -202,40 +223,38 @@ export function semanticSections(tool: SemanticTool): SemanticSection[] {
       heading: `What the ${tool.name} does`,
       paragraphs: [
         semanticLead(tool.name, tool.description),
-        `That is the whole scope of the page. It sits in ${tool.categoryName}, the group for ${tool.tagline.toLowerCase()}. The ${tool.name} only does the job in that first sentence.`,
         privacy(tool),
       ],
     },
     {
-      heading: `When a ${tool.name} is the right page`,
+      heading: `When the ${tool.name} helps`,
       paragraphs: [
         angle.when,
-        `Open it when you need ${needLine(tool.description)}. If you need a different output, pick the tool whose description names that output.`,
+        `Choose this page when its described output matches the decision, file, or check you need. The tool cannot infer requirements that you leave out.`,
       ],
     },
     {
       heading: `How to use the ${tool.name}`,
       paragraphs: [
         angle.input,
-        `Run it once with the values you have. The result should line up with this promise: ${tool.description.trim()} Change one field if you want a second case, and keep the other fields the same so you can see what moved.`,
+        `Start with a small, representative example. Keep the source and result side by side, then change one input at a time so you can tell which setting changed the output.`,
       ],
     },
     {
-      heading: "How to read the result",
+      heading: "Verify the output",
       paragraphs: [
         angle.read,
-        `Keep the units, the dates, and the file type that the form showed. A number from the ${tool.name} is ready to copy only after you have checked it against the labels on this page.`,
+        verificationGuidance(tool.categorySlug),
       ],
     },
     {
-      heading: `What the ${tool.name} leaves out`,
+      heading: `Limits of the ${tool.name}`,
       paragraphs: [
         angle.limit,
-        `Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.`,
       ],
     },
     {
-      heading: "The next tool",
+      heading: "Related tools",
       paragraphs: [relatedSentence(tool)],
     },
   ];
