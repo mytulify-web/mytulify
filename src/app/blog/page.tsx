@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import { BlogCategoryNav } from "@/components/blog/BlogCategoryNav";
-import { formatPostDate, getAllPosts, getBlogCategory, type BlogPost } from "@/lib/blog";
+import { formatPostDate, getIndexablePosts, getBlogCategory, type BlogPost } from "@/lib/blog";
 import { site } from "@/lib/site";
 import { englishOnlyPageMeta, clampMetaDescription } from "@/lib/seo";
 import { getMetadataLocale } from "@/i18n/locale";
-import { TOTAL_TOOLS } from "@/lib/catalog";
 
 function esc(value: string) {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -30,8 +29,8 @@ export async function generateMetadata({
   const category = getBlogCategory(categorySlug);
   const description = clampMetaDescription(
     category
-      ? `${category.description} Guides from ${site.name} for ${TOTAL_TOOLS}+ free online tools.`
-      : `Guides and tips for using ${site.name}'s ${TOTAL_TOOLS}+ free online tools — SEO, calculators, PDF, images, and more.`,
+      ? `${category.description} Practical guides from ${site.name}.`
+      : `Original how-tos, comparisons, and practical guides on calculators, developer workflows, PDFs, images, and more.`,
   );
   return englishOnlyPageMeta("/blog", locale, {
     title: category ? `${category.name} · Blog` : "Blog",
@@ -48,7 +47,7 @@ export default async function BlogIndexPage({
   const sp = await searchParams;
   const categorySlug = typeof sp.category === "string" ? sp.category : undefined;
   const category = getBlogCategory(categorySlug);
-  const posts = getAllPosts();
+  const posts = getIndexablePosts();
   const filtered = category ? posts.filter((p) => p.category === category.slug) : posts;
 
   return (
@@ -56,12 +55,12 @@ export default async function BlogIndexPage({
       <div className="max-w-2xl">
         <p className="section-label">Blog</p>
         <h1 className="mt-2 text-3xl font-extrabold tracking-tight sm:text-4xl">
-          {category ? category.name : `Guides for ${TOTAL_TOOLS}+ tools`}
+          {category ? category.name : "Practical guides and comparisons"}
         </h1>
         <p className="mt-3 text-muted">
           {category
             ? category.description
-            : `Practical how-tos on SEO, finance calculators, image formats, and more — written by the ${site.name} team.`}
+            : `Original how-tos, comparisons, and practical guides on calculators, developer workflows, PDFs, images, and more.`}
         </p>
       </div>
 
