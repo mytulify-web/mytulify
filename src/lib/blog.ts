@@ -207,6 +207,20 @@ export function getAllPosts(): BlogPost[] {
     .sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
 }
 
+/** True only for the known auto-generated guide template with repeated filler copy. */
+export function isTemplateGuide(post: Pick<BlogPost, "body"> | null | undefined): boolean {
+  return Boolean(
+    post &&
+      post.body.includes("That is the whole scope of the page.") &&
+      post.body.includes("only does the job in that first sentence."),
+  );
+}
+
+/** Published editorial and rewritten guides; leaves tool routes untouched. */
+export function getIndexablePosts(): BlogPost[] {
+  return getAllPosts().filter((post) => !isTemplateGuide(post));
+}
+
 export function getPostBySlug(slug: string): BlogPost | null {
   const fileRel = path.join("content", "blog", `${slug}.md`);
   return loadFile(fileRel, true);
