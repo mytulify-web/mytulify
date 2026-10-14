@@ -236,11 +236,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   });
 
   const ocrDate = handwritingFallback();
-  // Tool-page copy is generated from this shared file, so changes here update all tool-page lastmod hints.
-  const sharedToolCopyDate = maxDate(
-    gitFileLastmod("src/lib/seo/semantic-tool.ts"),
-    fileMtime("src/lib/seo/semantic-tool.ts"),
-  );
+  // Tool-page copy is generated from this shared file. Use its Git change date,
+  // not checkout mtime, so unrelated deployments do not make every tool look updated.
+  const sharedToolCopyDate = gitFileLastmod("src/lib/seo/semantic-tool.ts");
 
   const toolPages = AVAILABLE_TOOLS.filter(
     (t) => t.category && !isNonCanonicalToolPath(t.category, t.slug),
