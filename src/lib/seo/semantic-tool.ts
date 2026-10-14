@@ -188,12 +188,6 @@ export function semanticLead(name: string, description: string): string {
   return `Use the free ${name} to ${d.rest}.`;
 }
 
-function needLine(description: string): string {
-  const d = described(description);
-  if (!d.verb) return `this is the job: ${d.full}`;
-  return `to ${d.rest}`;
-}
-
 function privacy(tool: SemanticTool): string {
   if (tool.clientSide) {
     return `${tool.name} runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.`;
