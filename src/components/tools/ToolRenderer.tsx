@@ -4,6 +4,8 @@ import dynamic from "next/dynamic";
 import type { ComponentType } from "react";
 import { ComingSoon } from "./reg/_util";
 import { ToolLoadingSkeleton } from "@/components/ui/motion";
+import { useEffect } from "react";
+import { trackAnalyticsEvent } from "@/lib/analytics-events";
 
 type RegProps = { slug: string };
 
@@ -31,6 +33,15 @@ const LOADERS: Record<string, ComponentType<RegProps>> = {
 
 export function ToolRenderer({ category, slug }: { category: string; slug: string }) {
   const Cat = LOADERS[category];
+
+  useEffect(() => {
+    if (!Cat) return;
+    trackAnalyticsEvent("tool_view", {
+      tool_slug: slug,
+      tool_category: category,
+    });
+  }, [Cat, category, slug]);
+
   if (!Cat) return <ComingSoon />;
   return <Cat slug={slug} />;
 }
