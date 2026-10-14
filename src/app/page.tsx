@@ -4,8 +4,8 @@ import { HomeHero } from "@/components/home/HomeHero";
 import { HomeCatalog } from "@/components/home/HomeCatalog";
 import { DisplayAd } from "@/components/ads/DisplayAd";
 import { Icon } from "@/components/ui/Icon";
-import { site } from "@/lib/site";
-import { socialMeta, pageAlternates, publicRobots } from "@/lib/seo";
+import { TOTAL_TOOLS } from "@/lib/catalog";
+import { clampMetaDescription, socialMeta, pageAlternates, publicRobots } from "@/lib/seo";
 import { getLocale, getMetadataLocale } from "@/i18n/locale";
 import { getMessages } from "@/i18n/messages";
 import { getMessaging } from "@/i18n/messaging";
@@ -16,16 +16,18 @@ export async function generateMetadata({
   searchParams: Promise<{ lang?: string | string[] }>;
 }): Promise<Metadata> {
   const locale = await getMetadataLocale(searchParams);
-  const messaging = await getMessaging(locale);
-  const title = `${site.name} — ${messaging.tagline}`;
+  const title = "Free Online Tools & Calculators | Mytulify";
+  const description = clampMetaDescription(
+    `Explore ${TOTAL_TOOLS}+ online tools: calculators, image and text utilities, SEO tools and converters. Free browser tools, no signup required.`,
+  );
   return {
     title: { absolute: title },
-    description: messaging.siteDescription,
+    description,
     ...pageAlternates("/", locale),
     robots: publicRobots(locale),
     ...socialMeta({
       title,
-      description: messaging.siteDescription,
+      description,
       url: "/",
       locale,
     }),
