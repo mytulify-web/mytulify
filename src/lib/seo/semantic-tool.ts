@@ -19,6 +19,7 @@ type Angle = {
   input: string;
   read: string;
   limit: string;
+  example?: string;
 };
 
 const ANGLES: Record<string, Angle> = {
@@ -132,9 +133,25 @@ const ANGLES: Record<string, Angle> = {
   },
 };
 
-function angleFor(categorySlug: string): Angle {
+const TOOL_ANGLES: Record<string, Angle> = {
+  "social-media-tools/small-text-generator": { when:"Use it for a short decorative label, not long paragraphs or essential instructions.", input:"Start with a few words, compare styles, then paste the result into a draft of the destination app.", read:"Preview the characters on a phone and in the app where they will appear.", limit:"These are Unicode substitutions, not a real font-size change. Search and screen-reader output may differ.", example:"For a profile label such as “design notes”, style just those words and keep contact details in plain text." },
+  "social-media-tools/linkedin-text-formatter": { when:"Use it to emphasize one short heading or takeaway, not to turn the whole post into decorative characters.", input:"Draft the post in plain text first, then convert only the phrase that should stand out.", read:"Preview the post on desktop and mobile and make sure it is clear without visual styling.", limit:"Unicode lookalikes are not semantic bold or italic. Character counting and screen-reader output may differ.", example:"Style “Three lessons from our launch” and leave the lessons in ordinary text." },
+  "pdf-tools/jpg-to-pdf": { when:"Use it when several image files need to be delivered as one PDF, such as receipts, scans, or photographed forms.", input:"Choose the images, check their reading order, and use originals rather than screenshots of compressed images.", read:"Open the exported PDF separately and inspect page order, orientation, and small text.", limit:"Image-to-PDF conversion does not automatically make photographed text searchable; OCR is separate.", example:"For three reimbursement receipts, arrange them by date and check that every total is legible." },
+  "security-password-tools/ntlm-hash-generator": { when:"Use it only for learning or authorized legacy-system testing with synthetic input.", input:"Enter a made-up test string and compare the result with a known test vector or controlled lab exercise.", read:"The same input and algorithm should produce the same hash; that is a consistency check, not proof of password strength.", limit:"NTLM is a legacy authentication format. A hash is not encryption and may itself be sensitive credential material.", example:"Run the same synthetic phrase twice, then change one character and compare the output. Never use a production credential." },
+  "social-media-tools/instagram-font-generator": { when:"Use it for a short decorative label in a bio or caption that can be checked in the destination app.", input:"Write the bio in plain text first, style one short phrase, then preview it on a phone.", read:"Check legibility at profile size and keep essential details in ordinary text.", limit:"The output uses Unicode lookalikes rather than an installed font; some glyphs may not render or be read aloud as expected.", example:"Style “travel notes” as a short heading, but leave the profile description and contact details plain." },
+  "image-tools/gif-maker": { when:"Use it for a short loop or step-by-step sequence where still images communicate the motion.", input:"Choose frames from the same sequence and check their order before exporting.", read:"Watch the downloaded GIF at its intended size and look for flicker or abrupt jumps.", limit:"GIF’s limited color palette can create dithering in photos and gradients; many large frames can create a large file.", example:"For a four-step tutorial, order frames as before, action, after, result; reduce dimensions if the file is too large." },
+  "image-tools/webp-to-jpg": { when:"Use it when an upload form or older application specifically requires JPG rather than WebP.", input:"Keep the original, convert the image, then inspect the saved JPG at full size.", read:"Check edges, small text, dimensions, file size, and any transparent area that now has a background.", limit:"JPG is lossy and does not support transparency. Conversion cannot restore detail missing from the original.", example:"For a photo rejected because it is WebP, convert it and confirm the background and edges still look correct." },
+  "image-tools/image-to-base64": { when:"Use it when a small image must be represented as text in a data URI or test fixture.", input:"Start with a small icon and check whether the destination expects the full data URI or only the Base64 payload.", read:"Paste the output into a test page or application you control and confirm the image displays.", limit:"Base64 is an encoding, not encryption, and increases raw data size by roughly one third before overhead.", example:"A small interface icon may suit a data URI; a large photo is usually easier to manage as a separate file." },
+  "unit-converters/density-converter": { when:"Use it when a datasheet or calculation expresses density in a different unit from the one your project needs.", input:"Read the value and unit together, choose source and target units, and enter the quantity.", read:"Check the magnitude against a known reference and copy the target unit along with the number.", limit:"The converter changes units; it does not identify a material or determine its actual density.", example:"1 g/cm³ equals 1,000 kg/m³, so 800 kg/m³ corresponds to 0.8 g/cm³." },
+  "image-tools/add-watermark-to-image": { when:"Use it to add visible attribution or branding before publishing or sending an image.", input:"Keep an untouched original, add the text or logo, and test placement on light and dark backgrounds.", read:"Check that the mark is legible but does not cover a face, product detail, or essential information.", limit:"A visible watermark is not access control; it cannot prevent screenshots, cropping, or deliberate removal.", example:"For product photos, place the mark consistently while keeping labels and product features unobstructed." },
+  "home-trade-calculators/budget-calculator": { when:"Use it to compare take-home income with planned expenses for the same period and see what remains.", input:"Use net income, group regular bills, and include a monthly allowance for irregular costs where possible.", read:"Check that all amounts use the same period and compare the leftover amount with actual spending after a month.", limit:"The result is only as complete as the figures entered; it is a planning estimate, not a bank statement.", example:"With $3,000 take-home income and $2,480 of entered expenses, the leftover is $520, about 17.3% of income. These figures are illustrative." },
+  "pdf-tools/extract-pdf-pages": { when:"Use it when a recipient needs only selected pages from a longer PDF, such as a chapter, schedule, or receipts.", input:"Identify the pages in the source PDF and remember printed page numbers may differ from physical positions.", read:"Open the extracted PDF and verify first page, last page, order, and orientation before sharing.", limit:"Extracting pages is not the same as redacting sensitive information or cleaning hidden metadata.", example:"When extracting a signature page and two schedules from a contract, check that each schedule retains the pages needed to understand it." },
+};
+
+function angleFor(tool: SemanticTool): Angle {
   return (
-    ANGLES[categorySlug] ?? {
+    TOOL_ANGLES[`${tool.categorySlug}/${tool.slug}`] ??
+    ANGLES[tool.categorySlug] ?? {
       when: "Use it when the job in the description is the job you have right now.",
       input: "Enter the text, the file, or the numbers the form asks for.",
       read: "Read the result next to the labels before you copy it.",
@@ -196,13 +213,12 @@ function relatedSentence(tool: SemanticTool): string {
 
 /** On-page copy aimed at the tool name as the search phrase, using that tool's description as the scope. */
 export function semanticSections(tool: SemanticTool): SemanticSection[] {
-  const angle = angleFor(tool.categorySlug);
+  const angle = angleFor(tool);
   return [
     {
       heading: `What the ${tool.name} does`,
       paragraphs: [
         semanticLead(tool.name, tool.description),
-        `That is the whole scope of the page. It sits in ${tool.categoryName}, the group for ${tool.tagline.toLowerCase()}. The ${tool.name} only does the job in that first sentence.`,
         privacy(tool),
       ],
     },
@@ -210,28 +226,29 @@ export function semanticSections(tool: SemanticTool): SemanticSection[] {
       heading: `When a ${tool.name} is the right page`,
       paragraphs: [
         angle.when,
-        `Open it when you need ${needLine(tool.description)}. If you need a different output, pick the tool whose description names that output.`,
+        `If you are unsure whether this is the right tool, test a small sample first and compare it with the output you expect.`,
       ],
     },
     {
       heading: `How to use the ${tool.name}`,
       paragraphs: [
         angle.input,
-        `Run it once with the values you have. The result should line up with this promise: ${tool.description.trim()} Change one field if you want a second case, and keep the other fields the same so you can see what moved.`,
+        `For a second case, change one input at a time. That makes it easier to spot a unit, formatting, or selection mistake.`,
       ],
     },
+    ...(angle.example ? [{ heading: `Example: ${tool.name}`, paragraphs: [angle.example] }] : []),
     {
       heading: "How to read the result",
       paragraphs: [
         angle.read,
-        `Keep the units, the dates, and the file type that the form showed. A number from the ${tool.name} is ready to copy only after you have checked it against the labels on this page.`,
+        `Check the output in the place you plan to use it—open the exported file, preview the pasted text, or compare the number with a known reference when one is available.`,
       ],
     },
     {
       heading: `What the ${tool.name} leaves out`,
       paragraphs: [
         angle.limit,
-        `Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.`,
+        `Do not infer extra features from the name alone. If your task depends on a rule or format not stated here, verify that requirement before you rely on the result.`,
       ],
     },
     {

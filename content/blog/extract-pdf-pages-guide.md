@@ -2,12 +2,12 @@
 title: "Extract PDF Pages: Pull selected pages out into a new PDF file"
 slug: extract-pdf-pages-guide
 category: documents
-excerpt: "Use the free Extract PDF Pages to pull selected pages out into a new PDF file."
+excerpt: "Create a smaller PDF containing only the pages you need, then verify page order, orientation, and sensitive information before sharing."
 publishedDate: 2026-10-01
-updatedDate: 2026-10-01
+updatedDate: 2026-10-14
 featuredImage: /blog/covers/extract-pdf-pages-guide.svg
 author: Mytulify Team
-metaDescription: "Use the free Extract PDF Pages to pull selected pages out into a new PDF file."
+metaDescription: "A practical guide to extracting selected PDF pages, checking page numbering and order, and keeping a clean copy of the original document."
 relatedToolSlugs:
   - pdf-tools/extract-pdf-pages
   - pdf-tools/rotate-pdf
@@ -15,63 +15,40 @@ relatedToolSlugs:
   - pdf-tools/png-to-pdf
 ---
 
-Use the free Extract PDF Pages to pull selected pages out into a new PDF file. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Extract PDF Pages](/pdf-tools/extract-pdf-pages).
+Extracting PDF pages is useful when you need to send one chapter, a signed page, selected receipts, or a few pages from a longer document. The [Extract PDF Pages tool](/pdf-tools/extract-pdf-pages) creates a new PDF from selected pages; it does not automatically summarize or rewrite the content.
 
-## What the Extract PDF Pages does
+## Before extracting pages
 
-Use the free Extract PDF Pages to pull selected pages out into a new PDF file.
+Open the original PDF and identify the pages you need. Remember that the page number printed on a document may differ from its position in the PDF—for example, a cover page can shift the physical page index. Make a note of the first and last page and whether the selection must stay in a particular order.
 
-That is the whole scope of the page. It sits in PDF Tools, the group for merge, split & convert pdfs. The Extract PDF Pages only does the job in that first sentence.
+## How to create a selected-pages PDF
 
-Extract PDF Pages runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+1. Open the [Extract PDF Pages tool](/pdf-tools/extract-pdf-pages).
+2. Select or upload the source PDF as the tool requests.
+3. Specify the pages you need using the format supported by the interface.
+4. Run the extraction and save the new PDF.
+5. Open the output separately and verify the first page, last page, order, and orientation.
 
-## When a Extract PDF Pages is the right page
+## Example: send only the relevant contract pages
 
-Use it when you already have the PDF, or the pages, and you need the file changed in the way the description says.
+Suppose a 20-page contract contains a signature page and two schedules that a colleague needs. Extract only those pages, then check that each schedule remains with any page that explains its terms. Do not assume that page numbers printed in the footer are the same as the PDF’s position numbers.
 
-Open it when you need to pull selected pages out into a new PDF file. If you need a different output, pick the tool whose description names that output.
+## Privacy and document integrity
 
-## How to use the Extract PDF Pages
+PDFs can contain names, signatures, addresses, account details, and hidden metadata. Before sharing an extracted file, check that you did not include unrelated pages and that the recipient is allowed to receive the selected information. Extracting pages is not the same as redacting content: text removed from view or covered by a shape may still exist in a PDF unless a proper redaction process is used.
 
-Upload the file and set the page order or the range before you run it.
+Keep the original file until you have checked the extracted copy. If a page is rotated incorrectly, use a PDF rotation tool and recheck the saved result.
 
-Run it once with the values you have. The result should line up with this promise: Pull selected pages out into a new PDF file. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+## Frequently asked questions
 
-## How to read the result
+### Does extraction delete pages from the original?
 
-Open the download and check the pages you cared about: order, rotation, and whether the text is still selectable.
+A typical extraction creates a separate output file; keep the original unless you have verified the tool’s behavior and intentionally no longer need it.
 
-Keep the units, the dates, and the file type that the form showed. A number from the Extract PDF Pages is ready to copy only after you have checked it against the labels on this page.
+### Why are my page numbers off by one?
 
-## What the Extract PDF Pages leaves out
+The page number printed on the page may not match its physical position in the PDF. Count the cover and any unnumbered pages.
 
-A scan stays a picture unless the tool says it reads text. Compression can make images inside the PDF softer.
+### Does extraction remove hidden information?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
-
-## The next tool
-
-Other tools in PDF Tools include Rotate PDF, Delete PDF Pages, PNG to PDF and PDF to PNG. Open the one whose description matches the next job.
-
-## Run it, then continue
-
-Use the [Extract PDF Pages](/pdf-tools/extract-pdf-pages) for the job above. Related pages:
-
-- [Rotate PDF](/pdf-tools/rotate-pdf)
-- [Delete PDF Pages](/pdf-tools/delete-pdf-pages)
-- [PNG to PDF](/pdf-tools/png-to-pdf)
-- [PDF to PNG](/pdf-tools/pdf-to-png)
-
-## Questions people ask
-
-### What is a Extract PDF Pages?
-
-Use the free Extract PDF Pages to pull selected pages out into a new PDF file.
-
-### Is the Extract PDF Pages free?
-
-Extract PDF Pages runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Extract PDF Pages result on its own?
-
-Trust it for the scope in the description: Pull selected pages out into a new PDF file. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+Not necessarily. It selects pages; it is not a general metadata-cleaning or redaction tool.

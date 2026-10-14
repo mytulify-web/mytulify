@@ -2,12 +2,12 @@
 title: "JPG to PDF: Convert JPG and other images into a single PDF"
 slug: jpg-to-pdf-guide
 category: documents
-excerpt: "Use the free JPG to PDF to convert JPG and other images into a single PDF."
+excerpt: "Convert image files into one PDF, choose a sensible page order, and check orientation and readability before sharing."
 publishedDate: 2026-10-01
-updatedDate: 2026-10-01
+updatedDate: 2026-10-14
 featuredImage: /blog/covers/jpg-to-pdf-guide.svg
 author: Mytulify Team
-metaDescription: "Use the free JPG to PDF to convert JPG and other images into a single PDF."
+metaDescription: "A practical JPG-to-PDF guide covering image order, page orientation, file quality, privacy, and what image-to-PDF conversion does not do."
 relatedToolSlugs:
   - pdf-tools/jpg-to-pdf
   - pdf-tools/rotate-pdf
@@ -15,63 +15,47 @@ relatedToolSlugs:
   - pdf-tools/png-to-pdf
 ---
 
-Use the free JPG to PDF to convert JPG and other images into a single PDF. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [JPG to PDF](/pdf-tools/jpg-to-pdf).
+Converting images to PDF is useful when a form, receipt, handwritten note, or set of scans needs to be sent as one document. The [JPG to PDF tool](/pdf-tools/jpg-to-pdf) combines JPG and other supported images into a PDF; it does not automatically turn the words inside a photo into selectable text.
 
-## What the JPG to PDF does
+## Before you convert
 
-Use the free JPG to PDF to convert JPG and other images into a single PDF.
+- **Choose the right images.** Start with original files rather than screenshots of already-compressed images.
+- **Decide the order.** Put a cover page or first receipt before later pages. File names do not always sort in the order you expect.
+- **Check orientation.** A phone may display a photo upright while another viewer reads its rotation metadata differently.
+- **Consider legibility.** A PDF can preserve a blurry image, but conversion cannot restore missing detail.
 
-That is the whole scope of the page. It sits in PDF Tools, the group for merge, split & convert pdfs. The JPG to PDF only does the job in that first sentence.
+## How to create one PDF
 
-JPG to PDF runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+1. Open the [JPG to PDF converter](/pdf-tools/jpg-to-pdf).
+2. Select the images you need to combine.
+3. Arrange them in the intended reading order if the tool exposes ordering controls.
+4. Run the conversion and save the resulting PDF.
+5. Open the saved file in a separate PDF viewer. Check the first and last pages, order, rotation, and small text.
 
-## When a JPG to PDF is the right page
+## Example: combine receipts for reimbursement
 
-Use it when you already have the PDF, or the pages, and you need the file changed in the way the description says.
+Suppose you have three receipt photos from a work trip. Select only the receipts that belong to that claim, order them by date, and create one PDF. Before sending it, confirm that the totals and dates are legible and no unrelated photo was included.
 
-Open it when you need to convert JPG and other images into a single PDF. If you need a different output, pick the tool whose description names that output.
+## Image PDF versus searchable PDF
 
-## How to use the JPG to PDF
+An image-based PDF can look correct while its text is not selectable. If a recipient needs to search, copy, or screen-read the words, you may need OCR (optical character recognition) after conversion. Do not assume JPG-to-PDF conversion performs OCR unless the tool explicitly says it does.
 
-Upload the file and set the page order or the range before you run it.
+## Privacy and file size
 
-Run it once with the values you have. The result should line up with this promise: Convert JPG and other images into a single PDF. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Receipts and forms can contain addresses, account details, or other sensitive information. Use only files you are comfortable processing with the tool, and check the site’s stated processing behavior. Large photos can create a large PDF; reducing image dimensions may help, but aggressive compression can make small print harder to read.
 
-## How to read the result
+For a different PDF task, use [Extract PDF Pages](/pdf-tools/extract-pdf-pages) to create a file from selected pages, or [Rotate PDF](/pdf-tools/rotate-pdf) if an existing document needs its page orientation corrected.
 
-Open the download and check the pages you cared about: order, rotation, and whether the text is still selectable.
+## Frequently asked questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the JPG to PDF is ready to copy only after you have checked it against the labels on this page.
+### Can I combine several JPGs into one PDF?
 
-## What the JPG to PDF leaves out
+Yes, that is the purpose of a JPG-to-PDF converter. Check the resulting page order and orientation after conversion.
 
-A scan stays a picture unless the tool says it reads text. Compression can make images inside the PDF softer.
+### Will the text in the image become selectable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Not from conversion alone. The PDF may contain the original image; OCR is a separate process.
 
-## The next tool
+### Why is the PDF larger than expected?
 
-Other tools in PDF Tools include Rotate PDF, Delete PDF Pages, PNG to PDF and PDF to PNG. Open the one whose description matches the next job.
-
-## Run it, then continue
-
-Use the [JPG to PDF](/pdf-tools/jpg-to-pdf) for the job above. Related pages:
-
-- [Rotate PDF](/pdf-tools/rotate-pdf)
-- [Delete PDF Pages](/pdf-tools/delete-pdf-pages)
-- [PNG to PDF](/pdf-tools/png-to-pdf)
-- [PDF to PNG](/pdf-tools/pdf-to-png)
-
-## Questions people ask
-
-### What is a JPG to PDF?
-
-Use the free JPG to PDF to convert JPG and other images into a single PDF.
-
-### Is the JPG to PDF free?
-
-JPG to PDF runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the JPG to PDF result on its own?
-
-Trust it for the scope in the description: Convert JPG and other images into a single PDF. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+High-resolution images can make the output large. Use appropriately sized originals and verify that any compression still leaves important text readable.
