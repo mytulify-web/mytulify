@@ -4887,6 +4887,8 @@
       ]
     },
     "home-trade-calculators/ev-charging-cost-calculator": {
+      "name": "EV Charging Cost Calculator",
+      "description": "Calculate electric vehicle charging cost, kWh, and hours from miles, efficiency, and charger kW.",
       "metaTitle": "EV Charging Cost Calculator | Mytulify",
       "metaDescription": "Estimate EV charging cost, electricity use in kWh, and charging time from your driving distance, vehicle efficiency, electricity rate, and charger power."
     }
