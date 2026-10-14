@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ShareButtons } from "@/components/blog/ShareButtons";
 import { BlogCover } from "@/components/blog/BlogCover";
 import { Icon } from "@/components/ui/Icon";
-import { formatPostDate, getAllPosts, getBlogCategory, getIndexablePosts, getPostBySlug, isTemplateGuide } from "@/lib/blog";
+import { formatPostDate, getAllPosts, getBlogCategory, getPostBySlug, isTemplateGuide } from "@/lib/blog";
 import { getTool, getToolIcon, isToolAvailable, toolHref } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import { englishOnlyPageMeta, clampMetaDescription, clampTitle } from "@/lib/seo";
