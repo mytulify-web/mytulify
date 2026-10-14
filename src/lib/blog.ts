@@ -207,6 +207,20 @@ export function getAllPosts(): BlogPost[] {
     .sort((a, b) => (a.publishedDate < b.publishedDate ? 1 : -1));
 }
 
+/** Detect the generated tool-guide template that adds repetitive filler instead of tool-specific guidance. */
+export function isTemplateGuide(post: Pick<BlogPost, "body">): boolean {
+  const body = post.body.toLowerCase();
+  return (
+    body.includes("that is the whole scope of the page.") &&
+    body.includes("only does the job in that first sentence.")
+  );
+}
+
+/** Posts suitable for the public blog index and XML sitemap. Thin template guides remain accessible but are not promoted for indexing. */
+export function getIndexablePosts(): BlogPost[] {
+  return getAllPosts().filter((post) => !isTemplateGuide(post));
+}
+
 export function getPostBySlug(slug: string): BlogPost | null {
   const fileRel = path.join("content", "blog", `${slug}.md`);
   return loadFile(fileRel, true);
