@@ -1941,8 +1941,8 @@
     "seo-web-tools/url-index-status-checker": {
       "name": "URL Index Status Checker",
       "description": "Soft-check index presence and open Google/Bing site: verification links for any URL.",
-      "metaTitle": "URL Index Checker for Google & Bing | Mytulify",
-      "metaDescription": "Check a URL with a best-effort Bing signal, then verify index presence using one-click Google and Bing site: searches.",
+      "metaTitle": "Bing URL Index Checker | Google & Bing | Mytulify",
+      "metaDescription": "Check a URL for a best-effort Bing indexing signal, then verify it with one-click Google and Bing site: searches. No indexing guarantee.",
       "about": [
         "Automatic “is it indexed?” checks are best-effort without Search Console API access. This tool runs a soft Bing HTML check and always gives you Google/Bing site: links to confirm.",
         "Mark confirmed URLs in the URL Indexing Toolkit tracker for campaign reporting."
@@ -4889,8 +4889,8 @@
     "home-trade-calculators/ev-charging-cost-calculator": {
       "name": "EV Charging Cost Calculator",
       "description": "Calculate electric vehicle charging cost, kWh, and hours from miles, efficiency, and charger kW.",
-      "metaTitle": "EV Charging Cost Calculator | Mytulify",
-      "metaDescription": "Estimate EV charging cost, electricity use in kWh, and charging time from your driving distance, vehicle efficiency, electricity rate, and charger power."
+      "metaTitle": "EV Charging Cost Calculator | Cost & kWh | Mytulify",
+      "metaDescription": "Estimate EV charging cost, kWh use, and charging time from miles driven, vehicle efficiency, electricity price, and charger power."
     }
   },
   "strings": {
