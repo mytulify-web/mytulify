@@ -1,13 +1,13 @@
 ---
 title: "Date Calculator: Add or subtract days from a date and find the span between two dates"
-slug: date-calculator-guide
-category: utilities
-excerpt: "Use the free Date Calculator to add or subtract days from a date and find the span between two dates."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/date-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Date Calculator to add or subtract days from a date and find the span between two dates."
+slug: "date-calculator-guide"
+category: "utilities"
+excerpt: "Add or subtract days from a date and find the span between two dates. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/date-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Add or subtract days from a date and find the span between two dates. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/date-calculator
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free Date Calculator to add or subtract days from a date and find the span between two dates. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Date Calculator](/calculators/date-calculator).
+[Date Calculator](/calculators/date-calculator) is the tool for one job: add or subtract days from a date and find the span between two dates. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Date Calculator does
+## What to bring to the Date Calculator
 
-Use the free Date Calculator to add or subtract days from a date and find the span between two dates.
+Decide whether you are adding days to a date or counting the days between two dates. Include or exclude the end date the way your contract does.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The Date Calculator only does the job in that first sentence.
+Date Calculator runs in your browser. The file or the figures stay on your device.
 
-Date Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Date Calculator
 
-## When a Date Calculator is the right page
+From 1 March to 1 April is 31 days of span if you count the distance, and the landing date after adding 31 days to 1 March is 1 April in a non-leap March. February's length depends on the year.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to add or subtract days from a date and find the span between two dates. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Date Calculator
+Test a leap day. 2024 is a leap year. 1900 is not. The result should follow the calendar, not a 365-day assumption, when you cross February.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the Date Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Add or subtract days from a date and find the span between two dates. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Business-day rules, holidays, and 'end of the month' clauses are not in the calendar math unless the form says they are.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Date Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Date Calculator do?
 
-## What the Date Calculator leaves out
+It is there to add or subtract days from a date and find the span between two dates. The form on the [Date Calculator](/calculators/date-calculator) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the Date Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Test a leap day. 2024 is a leap year. 1900 is not. The result should follow the calendar, not a 365-day assumption, when you cross February.
 
-## The next tool
+### What should I not trust the Date Calculator to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+Business-day rules, holidays, and 'end of the month' clauses are not in the calendar math unless the form says they are.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Date Calculator](/calculators/date-calculator) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a Date Calculator?
-
-Use the free Date Calculator to add or subtract days from a date and find the span between two dates.
-
-### Is the Date Calculator free?
-
-Date Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Date Calculator result on its own?
-
-Trust it for the scope in the description: Add or subtract days from a date and find the span between two dates. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

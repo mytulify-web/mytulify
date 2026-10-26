@@ -1,13 +1,13 @@
 ---
 title: "Budget Calculator: Split monthly income across housing, food, transport, and debt, then see what is left and the savings rate"
-slug: budget-calculator-guide
-category: home
-excerpt: "Use the free Budget Calculator to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/budget-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Budget Calculator to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate."
+slug: "budget-calculator-guide"
+category: "home"
+excerpt: "Split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/budget-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. What to enter, how to check the result, and where it"
 relatedToolSlugs:
   - home-trade-calculators/budget-calculator
   - home-trade-calculators/cfm-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/aquarium-calculator
 ---
 
-Use the free Budget Calculator to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Budget Calculator](/home-trade-calculators/budget-calculator).
+[Budget Calculator](/home-trade-calculators/budget-calculator) is the tool for one job: split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Budget Calculator does
+## What to bring to the Budget Calculator
 
-Use the free Budget Calculator to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate.
+Enter monthly income and the amounts you spend on housing, food, transport, debt, and the other lines. Left over is income minus those amounts. Savings rate is what you keep, divided by income.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The Budget Calculator only does the job in that first sentence.
+Budget Calculator runs in your browser. The file or the figures stay on your device.
 
-Budget Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Budget Calculator
 
-## When a Budget Calculator is the right page
+A common check is whether housing is eating the budget. The page does not enforce a 30% rule. It shows your number next to the income you typed.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Budget Calculator
+The leftover plus the spending lines should equal the income. If they do not, a line was left out or entered twice.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the Budget Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+An annual bill you forgot to divide into a monthly amount will make the leftover look safer than it is.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Budget Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Budget Calculator do?
 
-## What the Budget Calculator leaves out
+It is there to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. The form on the [Budget Calculator](/home-trade-calculators/budget-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the Budget Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+The leftover plus the spending lines should equal the income. If they do not, a line was left out or entered twice.
 
-## The next tool
+### What should I not trust the Budget Calculator to decide?
 
-Other tools in Home & Trade Calculators include CFM Calculator, kW to kVA Calculator, Aquarium Calculator and Fuel Mix Calculator. Open the one whose description matches the next job.
+An annual bill you forgot to divide into a monthly amount will make the leftover look safer than it is.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Budget Calculator](/home-trade-calculators/budget-calculator) for the job above. Related pages:
-
-- [CFM Calculator](/home-trade-calculators/cfm-calculator)
-- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator)
-- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-
-## Questions people ask
-
-### What is a Budget Calculator?
-
-Use the free Budget Calculator to split monthly income across housing, food, transport, and debt, then see what is left and the savings rate.
-
-### Is the Budget Calculator free?
-
-Budget Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Budget Calculator result on its own?
-
-Trust it for the scope in the description: Split monthly income across housing, food, transport, and debt, then see what is left and the savings rate. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [CFM Calculator](/home-trade-calculators/cfm-calculator) — Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) — Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) — Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.

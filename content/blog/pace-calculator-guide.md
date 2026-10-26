@@ -1,13 +1,13 @@
 ---
 title: "Running Pace Calculator: Turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times"
-slug: pace-calculator-guide
-category: health
-excerpt: "Use the free Running Pace Calculator to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/pace-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Running Pace Calculator to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times."
+slug: "pace-calculator-guide"
+category: "health"
+excerpt: "Turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/pace-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. What to enter, how to check the result, and where it st"
 relatedToolSlugs:
   - health-tools/pace-calculator
   - health-tools/water-intake-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - health-tools/heart-rate-zone-calculator
 ---
 
-Use the free Running Pace Calculator to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Running Pace Calculator](/health-tools/pace-calculator).
+[Running Pace Calculator](/health-tools/pace-calculator) is the tool for one job: turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Running Pace Calculator does
+## What to bring to the Running Pace Calculator
 
-Use the free Running Pace Calculator to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times.
+Pace is time divided by distance. A predicted race time assumes you hold a related pace, which a real race may not allow.
 
-That is the whole scope of the page. It sits in Health & Fitness, the group for fitness, nutrition & wellbeing. The Running Pace Calculator only does the job in that first sentence.
+Running Pace Calculator runs in your browser. The file or the figures stay on your device.
 
-Running Pace Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Running Pace Calculator
 
-## When a Running Pace Calculator is the right page
+10 kilometres in 50 minutes is 5:00 per kilometre and about 8:03 per mile. A 5K prediction from that pace is half the distance only if you can hold the same speed, which most people cannot.
 
-Use it when you want a personal estimate from the measurements you have today.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Running Pace Calculator
+Double the distance at the same pace and the time should double. Switch miles to kilometres and both the pace and the distance label should change together.
 
-Enter height, weight, age, or the other measures the form asks for, in the units printed on the label.
+## Where the Running Pace Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Hills, heat, and a crowd are not in the straight-line pace.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Read the result next to the formula the page names. A different formula, or a clinician, can land on a different number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Running Pace Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Running Pace Calculator do?
 
-## What the Running Pace Calculator leaves out
+It is there to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. The form on the [Running Pace Calculator](/health-tools/pace-calculator) page is the place you do that.
 
-This is not a diagnosis, a diet, or a training plan. It does not know injuries, medicine, or lab results you did not type.
+### How do I know the Running Pace Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Double the distance at the same pace and the time should double. Switch miles to kilometres and both the pace and the distance label should change together.
 
-## The next tool
+### What should I not trust the Running Pace Calculator to decide?
 
-Other tools in Health & Fitness include Water Intake Calculator, Macro Calculator, Heart Rate Zone Calculator and Calories Burned Calculator. Open the one whose description matches the next job.
+Hills, heat, and a crowd are not in the straight-line pace.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Running Pace Calculator](/health-tools/pace-calculator) for the job above. Related pages:
-
-- [Water Intake Calculator](/health-tools/water-intake-calculator)
-- [Macro Calculator](/health-tools/macro-calculator)
-- [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator)
-- [Calories Burned Calculator](/health-tools/calories-burned-calculator)
-
-## Questions people ask
-
-### What is a Running Pace Calculator?
-
-Use the free Running Pace Calculator to turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times.
-
-### Is the Running Pace Calculator free?
-
-Running Pace Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Running Pace Calculator result on its own?
-
-Trust it for the scope in the description: Turn a distance and time into pace per km and per mile, plus projected 5K, 10K, half and marathon times. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Water Intake Calculator](/health-tools/water-intake-calculator) — Estimate your daily water needs based on weight, exercise and climate, shown in litres, cups and bottles.
+- [Macro Calculator](/health-tools/macro-calculator) — Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown.
+- [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator) — Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate.

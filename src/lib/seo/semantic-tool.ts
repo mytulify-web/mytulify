@@ -178,16 +178,6 @@ function privacy(tool: SemanticTool): string {
   return `${tool.name} sends the input to a server so the model can run. The free plan includes a small daily limit. Do not paste passwords or account numbers.`;
 }
 
-function relatedSentence(tool: SemanticTool): string {
-  if (!tool.related.length) {
-    return `Other tools in ${tool.categoryName} sit on that category page when the next step is a different job.`;
-  }
-  const names = tool.related.map((item) => item.name);
-  const list =
-    names.length === 1 ? names[0] : `${names.slice(0, -1).join(", ")} and ${names[names.length - 1]}`;
-  return `Other tools in ${tool.categoryName} include ${list}. Open the one whose description matches the next job.`;
-}
-
 /** On-page copy aimed at the tool name as the search phrase, using that tool's description as the scope. */
 const VERIFICATION_GUIDANCE: Record<string, string> = {
   "ai-tools": "Compare names, dates, numbers, and claims with the source. Test one prompt that includes an explicit constraint before using the draft.",
@@ -215,47 +205,30 @@ function verificationGuidance(categorySlug: string): string {
     "Compare the output with the input and the requirement you started with. Test an edge case before relying on the result.";
 }
 
-/** Page copy uses category-specific verification guidance instead of repeated filler paragraphs. */
+/**
+ * Short on-page copy for tools that do not have a hand-written explanation.
+ * One unique lead from that tool's description, plus the limit that actually applies.
+ * Long category-cloned essays read as scaled content and are not used here.
+ */
 export function semanticSections(tool: SemanticTool): SemanticSection[] {
   const angle = angleFor(tool.categorySlug);
+  const scope = described(tool.description).full;
   return [
     {
       heading: `What the ${tool.name} does`,
       paragraphs: [
         semanticLead(tool.name, tool.description),
+        `The job on this page is specific: ${scope}. If you need a different result, open another tool in ${tool.categoryName} whose description names that result.`,
         privacy(tool),
       ],
     },
     {
-      heading: `When the ${tool.name} helps`,
-      paragraphs: [
-        angle.when,
-        `Choose this page when its described output matches the decision, file, or check you need. The tool cannot infer requirements that you leave out.`,
-      ],
-    },
-    {
       heading: `How to use the ${tool.name}`,
-      paragraphs: [
-        angle.input,
-        `Start with a small, representative example. Keep the source and result side by side, then change one input at a time so you can tell which setting changed the output.`,
-      ],
-    },
-    {
-      heading: "Verify the output",
-      paragraphs: [
-        angle.read,
-        verificationGuidance(tool.categorySlug),
-      ],
+      paragraphs: [angle.input, angle.read],
     },
     {
       heading: `Limits of the ${tool.name}`,
-      paragraphs: [
-        angle.limit,
-      ],
-    },
-    {
-      heading: "Related tools",
-      paragraphs: [relatedSentence(tool)],
+      paragraphs: [angle.limit, verificationGuidance(tool.categorySlug)],
     },
   ];
 }

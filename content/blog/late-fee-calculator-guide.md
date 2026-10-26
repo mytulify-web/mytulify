@@ -1,13 +1,13 @@
 ---
 title: "Late Payment Fee Calculator: Calculate late fees on overdue invoices with flat or monthly percentage rates"
-slug: late-fee-calculator-guide
-category: career
-excerpt: "Use the free Late Payment Fee Calculator to calculate late fees on overdue invoices with flat or monthly percentage rates."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/late-fee-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Late Payment Fee Calculator to calculate late fees on overdue invoices with flat or monthly percentage rates."
+slug: "late-fee-calculator-guide"
+category: "career"
+excerpt: "Calculate late fees on overdue invoices with flat or monthly percentage rates. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/late-fee-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Calculate late fees on overdue invoices with flat or monthly percentage rates. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - freelancer-tools/late-fee-calculator
   - freelancer-tools/contract-generator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - freelancer-tools/nda-generator
 ---
 
-Use the free Late Payment Fee Calculator to calculate late fees on overdue invoices with flat or monthly percentage rates. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Late Payment Fee Calculator](/freelancer-tools/late-fee-calculator).
+[Late Payment Fee Calculator](/freelancer-tools/late-fee-calculator) is the tool for one job: calculate late fees on overdue invoices with flat or monthly percentage rates. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Late Payment Fee Calculator does
+## What to bring to the Late Payment Fee Calculator
 
-Use the free Late Payment Fee Calculator to calculate late fees on overdue invoices with flat or monthly percentage rates.
+Use the figures you and the client already discussed. A blank you leave in will be blank on the PDF.
 
-That is the whole scope of the page. It sits in Freelancer Tools, the group for contracts, rates & client docs — free. The Late Payment Fee Calculator only does the job in that first sentence.
+Late Payment Fee Calculator runs in your browser. The file or the figures stay on your device.
 
-Late Payment Fee Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Late Payment Fee Calculator
 
-## When a Late Payment Fee Calculator is the right page
+A flat fee is a fixed amount. A monthly percent is the percent times the overdue balance times the months. Read which one you selected. A contract has to allow the fee before you send it.
 
-Use it when a client conversation needs a number, a clause, or a message you can send the same day.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to calculate late fees on overdue invoices with flat or monthly percentage rates. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Late Payment Fee Calculator
+Read the export from top to bottom, including the total and the dates. Then send it.
 
-Enter the rate, the dates, and the scope you have actually agreed. Leave a field blank only if you do not have that figure yet.
+## Where the Late Payment Fee Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Calculate late fees on overdue invoices with flat or monthly percentage rates. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Late Payment Fee Calculator drafts the document or the number. It is not your lawyer, your accountant, or the client's acceptance.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Read the result as a draft you can edit. Your contract and your local rules still decide what you can charge and what you must write.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Late Payment Fee Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Late Payment Fee Calculator do?
 
-## What the Late Payment Fee Calculator leaves out
+It is there to calculate late fees on overdue invoices with flat or monthly percentage rates. The form on the [Late Payment Fee Calculator](/freelancer-tools/late-fee-calculator) page is the place you do that.
 
-The page does not know your client’s country, tax status, or the deal you made on a call.
+### How do I know the Late Payment Fee Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Read the export from top to bottom, including the total and the dates. Then send it.
 
-## The next tool
+### What should I not trust the Late Payment Fee Calculator to decide?
 
-Other tools in Freelancer Tools include Freelance Contract Generator, Freelance Proposal Generator, NDA Generator and Freelance Rate Calculator. Open the one whose description matches the next job.
+Late Payment Fee Calculator drafts the document or the number. It is not your lawyer, your accountant, or the client's acceptance.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Late Payment Fee Calculator](/freelancer-tools/late-fee-calculator) for the job above. Related pages:
-
-- [Freelance Contract Generator](/freelancer-tools/contract-generator)
-- [Freelance Proposal Generator](/freelancer-tools/proposal-generator)
-- [NDA Generator](/freelancer-tools/nda-generator)
-- [Freelance Rate Calculator](/freelancer-tools/rate-calculator)
-
-## Questions people ask
-
-### What is a Late Payment Fee Calculator?
-
-Use the free Late Payment Fee Calculator to calculate late fees on overdue invoices with flat or monthly percentage rates.
-
-### Is the Late Payment Fee Calculator free?
-
-Late Payment Fee Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Late Payment Fee Calculator result on its own?
-
-Trust it for the scope in the description: Calculate late fees on overdue invoices with flat or monthly percentage rates. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Freelance Contract Generator](/freelancer-tools/contract-generator) — Free freelance contract template & independent contractor agreement — scope, payment, IP, confidentiality, PDF download.
+- [Freelance Proposal Generator](/freelancer-tools/proposal-generator) — Build a client proposal with summary, scope, timeline, pricing, and about section — export PDF.
+- [NDA Generator](/freelancer-tools/nda-generator) — Generate a one-way or mutual non-disclosure agreement and download it as a PDF.

@@ -1,13 +1,13 @@
 ---
 title: "Heart Rate Zone Calculator: Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate"
-slug: heart-rate-zone-calculator-guide
-category: health
-excerpt: "Use the free Heart Rate Zone Calculator to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/heart-rate-zone-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Heart Rate Zone Calculator to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate."
+slug: "heart-rate-zone-calculator-guide"
+category: "health"
+excerpt: "Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/heart-rate-zone-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - health-tools/heart-rate-zone-calculator
   - health-tools/water-intake-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - health-tools/calories-burned-calculator
 ---
 
-Use the free Heart Rate Zone Calculator to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator).
+[Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator) is the tool for one job: calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Heart Rate Zone Calculator does
+## What to bring to the Heart Rate Zone Calculator
 
-Use the free Heart Rate Zone Calculator to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate.
+Karvonen uses heart-rate reserve: maximum heart rate minus resting heart rate. A zone is a percent of that reserve, added back onto the resting rate.
 
-That is the whole scope of the page. It sits in Health & Fitness, the group for fitness, nutrition & wellbeing. The Heart Rate Zone Calculator only does the job in that first sentence.
+Heart Rate Zone Calculator runs in your browser. The file or the figures stay on your device.
 
-Heart Rate Zone Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Heart Rate Zone Calculator
 
-## When a Heart Rate Zone Calculator is the right page
+If max is 180 and resting is 60, the reserve is 120. Zone work at 60% is 60 + 0.60 × 120 = 132 beats per minute. A plain percent of max, without the resting rate, would have said 108. Those are different methods.
 
-Use it when you want a personal estimate from the measurements you have today.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Heart Rate Zone Calculator
+A higher resting rate should raise the zone beats if max stays put, because you start from a higher floor.
 
-Enter height, weight, age, or the other measures the form asks for, in the units printed on the label.
+## Where the Heart Rate Zone Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+The 220-minus-age maximum is a rough population guess. A measured max is better. This is not a clearance to train hard.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Read the result next to the formula the page names. A different formula, or a clinician, can land on a different number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Heart Rate Zone Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Heart Rate Zone Calculator do?
 
-## What the Heart Rate Zone Calculator leaves out
+It is there to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. The form on the [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator) page is the place you do that.
 
-This is not a diagnosis, a diet, or a training plan. It does not know injuries, medicine, or lab results you did not type.
+### How do I know the Heart Rate Zone Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+A higher resting rate should raise the zone beats if max stays put, because you start from a higher floor.
 
-## The next tool
+### What should I not trust the Heart Rate Zone Calculator to decide?
 
-Other tools in Health & Fitness include Water Intake Calculator, Macro Calculator, Calories Burned Calculator and One Rep Max Calculator. Open the one whose description matches the next job.
+The 220-minus-age maximum is a rough population guess. A measured max is better. This is not a clearance to train hard.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator) for the job above. Related pages:
-
-- [Water Intake Calculator](/health-tools/water-intake-calculator)
-- [Macro Calculator](/health-tools/macro-calculator)
-- [Calories Burned Calculator](/health-tools/calories-burned-calculator)
-- [One Rep Max Calculator](/health-tools/one-rep-max-calculator)
-
-## Questions people ask
-
-### What is a Heart Rate Zone Calculator?
-
-Use the free Heart Rate Zone Calculator to calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate.
-
-### Is the Heart Rate Zone Calculator free?
-
-Heart Rate Zone Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Heart Rate Zone Calculator result on its own?
-
-Trust it for the scope in the description: Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Water Intake Calculator](/health-tools/water-intake-calculator) — Estimate your daily water needs based on weight, exercise and climate, shown in litres, cups and bottles.
+- [Macro Calculator](/health-tools/macro-calculator) — Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown.
+- [Calories Burned Calculator](/health-tools/calories-burned-calculator) — Estimate calories burned for dozens of activities using MET values, your weight and duration.

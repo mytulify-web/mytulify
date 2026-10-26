@@ -1,13 +1,13 @@
 ---
 title: "Plant Spacing Calculator: Count how many plants fit in a garden bed with square or triangular spacing"
-slug: plant-spacing-calculator-guide
-category: home
-excerpt: "Use the free Plant Spacing Calculator to count how many plants fit in a garden bed with square or triangular spacing."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/plant-spacing-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Plant Spacing Calculator to count how many plants fit in a garden bed with square or triangular spacing."
+slug: "plant-spacing-calculator-guide"
+category: "home"
+excerpt: "Count how many plants fit in a garden bed with square or triangular spacing. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/plant-spacing-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Count how many plants fit in a garden bed with square or triangular spacing. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - home-trade-calculators/plant-spacing-calculator
   - home-trade-calculators/cfm-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/aquarium-calculator
 ---
 
-Use the free Plant Spacing Calculator to count how many plants fit in a garden bed with square or triangular spacing. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Plant Spacing Calculator](/home-trade-calculators/plant-spacing-calculator).
+[Plant Spacing Calculator](/home-trade-calculators/plant-spacing-calculator) is the tool for one job: count how many plants fit in a garden bed with square or triangular spacing. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Plant Spacing Calculator does
+## What to bring to the Plant Spacing Calculator
 
-Use the free Plant Spacing Calculator to count how many plants fit in a garden bed with square or triangular spacing.
+Square spacing puts each plant on a grid. The count is the bed length divided by the spacing, times the bed width divided by the spacing. Triangular spacing staggers the rows and fits more plants.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The Plant Spacing Calculator only does the job in that first sentence.
+Plant Spacing Calculator runs in your browser. The file or the figures stay on your device.
 
-Plant Spacing Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Plant Spacing Calculator
 
-## When a Plant Spacing Calculator is the right page
+A 4 ft by 8 ft bed with plants 12 inches apart is 4 plants by 8 plants, which is 32, if you start at the edge the way the form assumes. A half-spacing inset from the edge lowers the count.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to count how many plants fit in a garden bed with square or triangular spacing. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Plant Spacing Calculator
+Triangular spacing should show more plants than square spacing for the same bed and the same spacing, or explain the inset it used.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the Plant Spacing Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Count how many plants fit in a garden bed with square or triangular spacing. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Paths, a trellis, and the mature width of the plant are your judgment. The page only tiles the rectangle.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Plant Spacing Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Plant Spacing Calculator do?
 
-## What the Plant Spacing Calculator leaves out
+It is there to count how many plants fit in a garden bed with square or triangular spacing. The form on the [Plant Spacing Calculator](/home-trade-calculators/plant-spacing-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the Plant Spacing Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Triangular spacing should show more plants than square spacing for the same bed and the same spacing, or explain the inset it used.
 
-## The next tool
+### What should I not trust the Plant Spacing Calculator to decide?
 
-Other tools in Home & Trade Calculators include CFM Calculator, kW to kVA Calculator, Aquarium Calculator and Fuel Mix Calculator. Open the one whose description matches the next job.
+Paths, a trellis, and the mature width of the plant are your judgment. The page only tiles the rectangle.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Plant Spacing Calculator](/home-trade-calculators/plant-spacing-calculator) for the job above. Related pages:
-
-- [CFM Calculator](/home-trade-calculators/cfm-calculator)
-- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator)
-- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-
-## Questions people ask
-
-### What is a Plant Spacing Calculator?
-
-Use the free Plant Spacing Calculator to count how many plants fit in a garden bed with square or triangular spacing.
-
-### Is the Plant Spacing Calculator free?
-
-Plant Spacing Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Plant Spacing Calculator result on its own?
-
-Trust it for the scope in the description: Count how many plants fit in a garden bed with square or triangular spacing. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [CFM Calculator](/home-trade-calculators/cfm-calculator) — Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) — Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) — Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.

@@ -1,13 +1,13 @@
 ---
 title: "Afghan Date Converter: Convert Shamsi (Solar Hijri) dates to Gregorian and back"
-slug: afghan-date-converter-guide
-category: utilities
-excerpt: "Use the free Afghan Date Converter to convert Shamsi (Solar Hijri) dates to Gregorian and back."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/afghan-date-converter-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Afghan Date Converter to convert Shamsi (Solar Hijri) dates to Gregorian and back."
+slug: "afghan-date-converter-guide"
+category: "utilities"
+excerpt: "Convert Shamsi (Solar Hijri) dates to Gregorian and back. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/afghan-date-converter-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Convert Shamsi (Solar Hijri) dates to Gregorian and back. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/afghan-date-converter
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free Afghan Date Converter to convert Shamsi (Solar Hijri) dates to Gregorian and back. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Afghan Date Converter](/calculators/afghan-date-converter).
+[Afghan Date Converter](/calculators/afghan-date-converter) is the tool for one job: convert Shamsi (Solar Hijri) dates to Gregorian and back. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Afghan Date Converter does
+## What to bring to the Afghan Date Converter
 
-Use the free Afghan Date Converter to convert Shamsi (Solar Hijri) dates to Gregorian and back.
+Enter a Solar Hijri date or a Gregorian date. The Afghan official calendar is Solar Hijri, also called Shamsi.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The Afghan Date Converter only does the job in that first sentence.
+Afghan Date Converter runs in your browser. The file or the figures stay on your device.
 
-Afghan Date Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Afghan Date Converter
 
-## When a Afghan Date Converter is the right page
+Nowruz, the start of the Solar Hijri year, falls on the March equinox, around 20 or 21 March. A date in Hamal is the start of that year, not January.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to convert Shamsi (Solar Hijri) dates to Gregorian and back. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Afghan Date Converter
+Convert a date forward and then back. You should land on the same day. If you do not, the day or the month number was off by one.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the Afghan Date Converter stops
 
-Run it once with the values you have. The result should line up with this promise: Convert Shamsi (Solar Hijri) dates to Gregorian and back. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Historical dates and regional observances can differ by a day at the new year. The page converts the calendar, not a local announcement.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Afghan Date Converter is ready to copy only after you have checked it against the labels on this page.
+### What does the Afghan Date Converter do?
 
-## What the Afghan Date Converter leaves out
+It is there to convert Shamsi (Solar Hijri) dates to Gregorian and back. The form on the [Afghan Date Converter](/calculators/afghan-date-converter) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the Afghan Date Converter result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Convert a date forward and then back. You should land on the same day. If you do not, the day or the month number was off by one.
 
-## The next tool
+### What should I not trust the Afghan Date Converter to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+Historical dates and regional observances can differ by a day at the new year. The page converts the calendar, not a local announcement.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Afghan Date Converter](/calculators/afghan-date-converter) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a Afghan Date Converter?
-
-Use the free Afghan Date Converter to convert Shamsi (Solar Hijri) dates to Gregorian and back.
-
-### Is the Afghan Date Converter free?
-
-Afghan Date Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Afghan Date Converter result on its own?
-
-Trust it for the scope in the description: Convert Shamsi (Solar Hijri) dates to Gregorian and back. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

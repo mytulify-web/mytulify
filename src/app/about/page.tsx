@@ -118,22 +118,22 @@ export default async function AboutPage() {
       <section className="prose-blog mt-10 max-w-none">
         <h2>What you can do here</h2>
         <p>
-          {site.name} is a library of free online tools for people who need an answer or a converted file without
-          installing software. Calculators cover money, health, school, and the workshop. Converters change units,
-          files, and formats. Text, PDF, image, and developer tools do the small jobs that usually mean opening a
-          desktop app. You open a page, enter what you already have, and read the result on that same page.
+          {site.name} is a working set of free online tools. Calculators cover money, health, school, and the
+          workshop. Converters change units and file formats. Text, PDF, image, and developer tools do the small
+          jobs that usually mean opening a desktop app. You open a page, enter what you already have, and read the
+          result on that same page.
         </p>
         <p>
-          Most tools run in the browser. The file or the numbers stay on your device, which is why those pages say
-          they are private and instant. A smaller set, including AI writers and handwriting OCR, sends the input to
-          a server so the model can run. Those pages say so, and the free plan includes a daily limit. Pro removes
-          that limit. You do not need an account to try a browser tool.
+          Most tools run in the browser. The file or the numbers stay on your device. A smaller set, including AI
+          writers and handwriting OCR, sends the input to a server so the model can run. Those pages say so, and
+          the free plan includes a daily limit. Pro removes that limit. You do not need an account to try a browser
+          tool.
         </p>
         <p>
           The categories are {CATEGORIES.map((c) => c.name).join(", ")}. Open a category when you know the kind of
-          job, or use search when you know the name of the tool. Every tool page repeats the job in plain language,
-          lists the steps, and answers the usual questions under the form. Related tools sit at the bottom when the
-          next step is a different calculation.
+          job, or use search when you know the name of the tool. The form is the product. The sentence under the
+          title is the scope of that one tool. Related tools sit at the bottom when the next step is a different
+          job.
         </p>
         <p>
           Read the result against the labels on the form. A mortgage figure depends on the rate and the term you
@@ -142,17 +142,12 @@ export default async function AboutPage() {
           source that actually governs that decision. The tools are estimates and converters, not a bank, a clinic,
           or a lawyer.
         </p>
-        <h2>How a tool page is organized</h2>
+        <h2>Who publishes this site</h2>
         <p>
-          The title is the task. The sentence under it is the scope. The form is next. Under the form you will find
-          a longer explanation, a numbered way to use the tool, a short table of facts, and questions. That text is
-          there so you can decide whether the tool fits before you type anything, and so you can interpret the
-          result after you do.
-        </p>
-        <p>
-          Search and the category lists use the same names and the same descriptions you see on the tool page. If
-          the description matches the input you have, you are on the right tool. If it does not, go back to the
-          category and read the next description. That is faster than guessing from an icon alone.
+          {site.name} publishes these tools and the guides that explain a specific job in detail, such as how a
+          mortgage payment is built or how to mark a campaign link. Questions, corrections, and billing go to{" "}
+          <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>, or through the{" "}
+          <Link href="/contact">contact form</Link>. Privacy, terms, and the disclaimer are linked in the footer.
         </p>
       </section>
 

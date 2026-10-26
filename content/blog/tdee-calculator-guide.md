@@ -1,13 +1,13 @@
 ---
 title: "TDEE Calculator: Compute Total Daily Energy Expenditure from BMR and activity level"
-slug: tdee-calculator-guide
-category: health
-excerpt: "Use the free TDEE Calculator to compute Total Daily Energy Expenditure from BMR and activity level."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/tdee-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free TDEE Calculator to compute Total Daily Energy Expenditure from BMR and activity level."
+slug: "tdee-calculator-guide"
+category: "health"
+excerpt: "Compute Total Daily Energy Expenditure from BMR and activity level. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/tdee-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Compute Total Daily Energy Expenditure from BMR and activity level. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/tdee-calculator
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free TDEE Calculator to compute Total Daily Energy Expenditure from BMR and activity level. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [TDEE Calculator](/calculators/tdee-calculator).
+[TDEE Calculator](/calculators/tdee-calculator) is the tool for one job: compute Total Daily Energy Expenditure from BMR and activity level. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the TDEE Calculator does
+## What to bring to the TDEE Calculator
 
-Use the free TDEE Calculator to compute Total Daily Energy Expenditure from BMR and activity level.
+TDEE multiplies a resting burn by an activity factor. You need the body measurements and an honest activity level.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The TDEE Calculator only does the job in that first sentence.
+TDEE Calculator runs in your browser. The file or the figures stay on your device.
 
-TDEE Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the TDEE Calculator
 
-## When a TDEE Calculator is the right page
+A sedentary factor is close to 1.2 times BMR. A hard training day is higher. Picking the highest factor for a mostly seated week overstates the calories you use.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to compute Total Daily Energy Expenditure from BMR and activity level. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the TDEE Calculator
+The activity description on the form should match your week, not your best week. Read the factor you selected before you copy the calories.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the TDEE Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Compute Total Daily Energy Expenditure from BMR and activity level. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+It does not count a single workout. A calories-burned page is the tool for one activity.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the TDEE Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the TDEE Calculator do?
 
-## What the TDEE Calculator leaves out
+It is there to compute Total Daily Energy Expenditure from BMR and activity level. The form on the [TDEE Calculator](/calculators/tdee-calculator) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the TDEE Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+The activity description on the form should match your week, not your best week. Read the factor you selected before you copy the calories.
 
-## The next tool
+### What should I not trust the TDEE Calculator to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+It does not count a single workout. A calories-burned page is the tool for one activity.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [TDEE Calculator](/calculators/tdee-calculator) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a TDEE Calculator?
-
-Use the free TDEE Calculator to compute Total Daily Energy Expenditure from BMR and activity level.
-
-### Is the TDEE Calculator free?
-
-TDEE Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the TDEE Calculator result on its own?
-
-Trust it for the scope in the description: Compute Total Daily Energy Expenditure from BMR and activity level. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

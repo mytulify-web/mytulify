@@ -1,13 +1,13 @@
 ---
 title: "Time Duration Calculator: Measure elapsed time between two date-times in multiple units"
-slug: time-duration-calculator-guide
-category: utilities
-excerpt: "Use the free Time Duration Calculator to measure elapsed time between two date-times in multiple units."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/time-duration-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Time Duration Calculator to measure elapsed time between two date-times in multiple units."
+slug: "time-duration-calculator-guide"
+category: "utilities"
+excerpt: "Measure elapsed time between two date-times in multiple units. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/time-duration-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Measure elapsed time between two date-times in multiple units. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/time-duration-calculator
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free Time Duration Calculator to measure elapsed time between two date-times in multiple units. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Time Duration Calculator](/calculators/time-duration-calculator).
+[Time Duration Calculator](/calculators/time-duration-calculator) is the tool for one job: measure elapsed time between two date-times in multiple units. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Time Duration Calculator does
+## What to bring to the Time Duration Calculator
 
-Use the free Time Duration Calculator to measure elapsed time between two date-times in multiple units.
+Enter both date-times, not only the clock times, when the span crosses midnight or a month.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The Time Duration Calculator only does the job in that first sentence.
+Time Duration Calculator runs in your browser. The file or the figures stay on your device.
 
-Time Duration Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Time Duration Calculator
 
-## When a Time Duration Calculator is the right page
+From 22:00 on one day to 06:00 the next day is 8 hours. The same clock times on one day would be negative or nonsense if the form requires the end to be later.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to measure elapsed time between two date-times in multiple units. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Time Duration Calculator
+Read the result in hours and in days. A 36-hour span is 1 day and 12 hours, not 1.36 days.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the Time Duration Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Measure elapsed time between two date-times in multiple units. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Time zones are part of the input if the two stamps are from different zones. This page uses the times you type.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Time Duration Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Time Duration Calculator do?
 
-## What the Time Duration Calculator leaves out
+It is there to measure elapsed time between two date-times in multiple units. The form on the [Time Duration Calculator](/calculators/time-duration-calculator) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the Time Duration Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Read the result in hours and in days. A 36-hour span is 1 day and 12 hours, not 1.36 days.
 
-## The next tool
+### What should I not trust the Time Duration Calculator to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+Time zones are part of the input if the two stamps are from different zones. This page uses the times you type.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Time Duration Calculator](/calculators/time-duration-calculator) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a Time Duration Calculator?
-
-Use the free Time Duration Calculator to measure elapsed time between two date-times in multiple units.
-
-### Is the Time Duration Calculator free?
-
-Time Duration Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Time Duration Calculator result on its own?
-
-Trust it for the scope in the description: Measure elapsed time between two date-times in multiple units. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

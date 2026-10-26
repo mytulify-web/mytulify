@@ -1,13 +1,13 @@
 ---
 title: "kW to kVA Calculator: Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps"
-slug: kw-to-kva-calculator-guide
-category: home
-excerpt: "Use the free kW to kVA Calculator to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/kw-to-kva-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free kW to kVA Calculator to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps."
+slug: "kw-to-kva-calculator-guide"
+category: "home"
+excerpt: "Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/kw-to-kva-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - home-trade-calculators/kw-to-kva-calculator
   - home-trade-calculators/cfm-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/fuel-mix-calculator
 ---
 
-Use the free kW to kVA Calculator to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator).
+[kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) is the tool for one job: convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the kW to kVA Calculator does
+## What to bring to the kW to kVA Calculator
 
-Use the free kW to kVA Calculator to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+kW is real power. kVA is apparent power. kW = kVA × power factor. A power factor of 1 means they match. A motor with a power factor of 0.8 needs more kVA than its kW.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The kW to kVA Calculator only does the job in that first sentence.
+kW to kVA Calculator runs in your browser. The file or the figures stay on your device.
 
-kW to kVA Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the kW to kVA Calculator
 
-## When a kW to kVA Calculator is the right page
+10 kW at a power factor of 0.8 is 12.5 kVA. Single-phase amps are watts divided by voltage. Three-phase amps are watts divided by voltage times square root of 3 times power factor.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the kW to kVA Calculator
+Set the power factor to 1. kW and kVA should match. Lower it and kVA should rise.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the kW to kVA Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Nameplate ratings and starting current are not this conversion. Use the numbers on the equipment plate.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the kW to kVA Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the kW to kVA Calculator do?
 
-## What the kW to kVA Calculator leaves out
+It is there to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. The form on the [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the kW to kVA Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Set the power factor to 1. kW and kVA should match. Lower it and kVA should rise.
 
-## The next tool
+### What should I not trust the kW to kVA Calculator to decide?
 
-Other tools in Home & Trade Calculators include CFM Calculator, Aquarium Calculator, Fuel Mix Calculator and BTU Calculator. Open the one whose description matches the next job.
+Nameplate ratings and starting current are not this conversion. Use the numbers on the equipment plate.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) for the job above. Related pages:
-
-- [CFM Calculator](/home-trade-calculators/cfm-calculator)
-- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-- [BTU Calculator](/home-trade-calculators/btu-calculator)
-
-## Questions people ask
-
-### What is a kW to kVA Calculator?
-
-Use the free kW to kVA Calculator to convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
-
-### Is the kW to kVA Calculator free?
-
-kW to kVA Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the kW to kVA Calculator result on its own?
-
-Trust it for the scope in the description: Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [CFM Calculator](/home-trade-calculators/cfm-calculator) — Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) — Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.
+- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator) — Calculate 2-stroke oil for a 50:1, 40:1, 32:1, or 25:1 gas mix in ounces and milliliters.

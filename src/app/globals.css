@@ -373,24 +373,6 @@ html[dir="rtl"] h3 {
 .post-row small { display: block; margin-top: 0.25rem; color: var(--muted); font-size: 0.875rem; line-height: 1.45; }
 .post-row:hover b { color: var(--brand); }
 
-.site-guide {
-  max-width: 48rem;
-  margin: 0 auto;
-  padding: 2.5rem 1rem 3rem;
-  color: var(--muted);
-  font-size: 0.9375rem;
-  line-height: 1.65;
-}
-.site-guide h2 {
-  margin-bottom: 0.75rem;
-  color: var(--foreground);
-  font-size: 1.35rem;
-  font-weight: 750;
-  letter-spacing: -0.02em;
-}
-.site-guide p { margin: 0.75rem 0; }
-.site-guide strong { color: var(--foreground); }
-
 /* colored tile for bento */
 .tile {
   position: relative;

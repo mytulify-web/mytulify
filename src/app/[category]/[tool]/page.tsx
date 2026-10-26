@@ -11,7 +11,7 @@ import { cn } from "@/lib/utils";
 import { site } from "@/lib/site";
 import { FREE_AI_DAILY_LIMIT } from "@/lib/billing/plans";
 import { socialMeta, pageAlternates, publicRobots } from "@/lib/seo";
-import { faqPageJsonLd, howToJsonLd, howToProse, breadcrumbJsonLd, toolQuickFacts, webApplicationJsonLd } from "@/lib/aeo";
+import { faqPageJsonLd, howToJsonLd, breadcrumbJsonLd, toolQuickFacts, webApplicationJsonLd } from "@/lib/aeo";
 import { ToolShareEmbed } from "@/components/tools/ToolShareEmbed";
 import { DisplayAd } from "@/components/ads/DisplayAd";
 import { getLocale, getMetadataLocale } from "@/i18n/locale";
@@ -128,7 +128,6 @@ export default async function ToolPage({
   const related = resolveRelated(label.related, t, 6);
   const faq = buildFaq(content, label, t.clientSide);
   const howTo = buildHowTo(content, label, t.clientSide);
-  const howToExtra = label.sections?.length ? [] : howToProse(label.name, label.description, t.clientSide);
   const about = toolAboutParagraphs(content, label, t.clientSide);
   const guide = toolGuide(t.category, t.slug);
   const semantic = label.about?.length
@@ -308,13 +307,6 @@ export default async function ToolPage({
               <li key={step.slice(0, 48)} className="leading-relaxed">{step}</li>
             ))}
           </ol>
-          {howToExtra.length > 0 && (
-            <div className="mt-4 space-y-3 text-muted">
-              {howToExtra.map((p) => (
-                <p key={p.slice(0, 48)} className="leading-relaxed">{p}</p>
-              ))}
-            </div>
-          )}
         </div>
 
         <div className="mt-8">

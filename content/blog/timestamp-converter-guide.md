@@ -1,13 +1,13 @@
 ---
 title: "Timestamp Converter: Convert Unix epoch timestamps to and from human-readable dates"
-slug: timestamp-converter-guide
-category: developer
-excerpt: "Use the free Timestamp Converter to convert Unix epoch timestamps to and from human-readable dates."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/timestamp-converter-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Timestamp Converter to convert Unix epoch timestamps to and from human-readable dates."
+slug: "timestamp-converter-guide"
+category: "developer"
+excerpt: "Convert Unix epoch timestamps to and from human-readable dates. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/timestamp-converter-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Convert Unix epoch timestamps to and from human-readable dates. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - developer-tools/timestamp-converter
   - developer-tools/json-to-csv
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - developer-tools/url-encoder-decoder
 ---
 
-Use the free Timestamp Converter to convert Unix epoch timestamps to and from human-readable dates. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Timestamp Converter](/developer-tools/timestamp-converter).
+[Timestamp Converter](/developer-tools/timestamp-converter) is the tool for one job: convert Unix epoch timestamps to and from human-readable dates. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Timestamp Converter does
+## What to bring to the Timestamp Converter
 
-Use the free Timestamp Converter to convert Unix epoch timestamps to and from human-readable dates.
+Paste a real snippet, not a description of the snippet, unless the tool asks you to describe one.
 
-That is the whole scope of the page. It sits in Developer Tools, the group for format, convert & debug code. The Timestamp Converter only does the job in that first sentence.
+Timestamp Converter runs in your browser. The file or the figures stay on your device.
 
-Timestamp Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Timestamp Converter
 
-## When a Timestamp Converter is the right page
+Unix time is seconds since 1970-01-01 UTC, unless the field says milliseconds. A 13-digit number is milliseconds. A 10-digit number is seconds. The human date should be in the time zone the page names.
 
-Use it when a snippet, a payload, or a number needs a format you can paste back into code.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to convert Unix epoch timestamps to and from human-readable dates. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Timestamp Converter
+Diff the output against the input for a formatter. For a generator, run the result in the real tool that will consume it.
 
-Paste valid input for the job in the description. An error line usually means the text is not in that shape yet.
+## Where the Timestamp Converter stops
 
-Run it once with the values you have. The result should line up with this promise: Convert Unix epoch timestamps to and from human-readable dates. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Timestamp Converter does not see your repository, your server, or the version of the library on your machine.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Diff the result against what you pasted. Formatting can be right while the data is still the data you typed.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Timestamp Converter is ready to copy only after you have checked it against the labels on this page.
+### What does the Timestamp Converter do?
 
-## What the Timestamp Converter leaves out
+It is there to convert Unix epoch timestamps to and from human-readable dates. The form on the [Timestamp Converter](/developer-tools/timestamp-converter) page is the place you do that.
 
-The page does not run your project, call your API, or know the version of the library on your machine.
+### How do I know the Timestamp Converter result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Diff the output against the input for a formatter. For a generator, run the result in the real tool that will consume it.
 
-## The next tool
+### What should I not trust the Timestamp Converter to decide?
 
-Other tools in Developer Tools include JSON to CSV Converter, Base64 Encoder/Decoder, URL Encoder/Decoder and UUID Generator. Open the one whose description matches the next job.
+Timestamp Converter does not see your repository, your server, or the version of the library on your machine.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Timestamp Converter](/developer-tools/timestamp-converter) for the job above. Related pages:
-
-- [JSON to CSV Converter](/developer-tools/json-to-csv)
-- [Base64 Encoder/Decoder](/developer-tools/base64-encoder-decoder)
-- [URL Encoder/Decoder](/developer-tools/url-encoder-decoder)
-- [UUID Generator](/developer-tools/uuid-generator)
-
-## Questions people ask
-
-### What is a Timestamp Converter?
-
-Use the free Timestamp Converter to convert Unix epoch timestamps to and from human-readable dates.
-
-### Is the Timestamp Converter free?
-
-Timestamp Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Timestamp Converter result on its own?
-
-Trust it for the scope in the description: Convert Unix epoch timestamps to and from human-readable dates. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [JSON to CSV Converter](/developer-tools/json-to-csv) — Convert JSON arrays into downloadable CSV files.
+- [Base64 Encoder/Decoder](/developer-tools/base64-encoder-decoder) — Encode and decode text and files to and from Base64.
+- [URL Encoder/Decoder](/developer-tools/url-encoder-decoder) — Percent-encode and decode URLs and query parameters.

@@ -1,13 +1,13 @@
 ---
 title: "CFM Calculator: Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop"
-slug: cfm-calculator-guide
-category: home
-excerpt: "Use the free CFM Calculator to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/cfm-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free CFM Calculator to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop."
+slug: "cfm-calculator-guide"
+category: "home"
+excerpt: "Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/cfm-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - home-trade-calculators/cfm-calculator
   - home-trade-calculators/kw-to-kva-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/fuel-mix-calculator
 ---
 
-Use the free CFM Calculator to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [CFM Calculator](/home-trade-calculators/cfm-calculator).
+[CFM Calculator](/home-trade-calculators/cfm-calculator) is the tool for one job: calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the CFM Calculator does
+## What to bring to the CFM Calculator
 
-Use the free CFM Calculator to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+CFM is cubic feet per minute. You need the room's volume and how many times per hour the air should be replaced.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The CFM Calculator only does the job in that first sentence.
+CFM Calculator runs in your browser. The file or the figures stay on your device.
 
-CFM Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the CFM Calculator
 
-## When a CFM Calculator is the right page
+A 10 by 10 by 8 ft room is 800 cubic feet. At 6 air changes an hour, the fan needs 800 × 6 / 60 = 80 CFM.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the CFM Calculator
+Double the air changes and the CFM should double. The minutes for one full change should halve.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the CFM Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+A hood or a spray booth may need a code minimum this estimate does not know.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the CFM Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the CFM Calculator do?
 
-## What the CFM Calculator leaves out
+It is there to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. The form on the [CFM Calculator](/home-trade-calculators/cfm-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the CFM Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Double the air changes and the CFM should double. The minutes for one full change should halve.
 
-## The next tool
+### What should I not trust the CFM Calculator to decide?
 
-Other tools in Home & Trade Calculators include kW to kVA Calculator, Aquarium Calculator, Fuel Mix Calculator and BTU Calculator. Open the one whose description matches the next job.
+A hood or a spray booth may need a code minimum this estimate does not know.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [CFM Calculator](/home-trade-calculators/cfm-calculator) for the job above. Related pages:
-
-- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator)
-- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-- [BTU Calculator](/home-trade-calculators/btu-calculator)
-
-## Questions people ask
-
-### What is a CFM Calculator?
-
-Use the free CFM Calculator to calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
-
-### Is the CFM Calculator free?
-
-CFM Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the CFM Calculator result on its own?
-
-Trust it for the scope in the description: Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) — Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) — Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.
+- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator) — Calculate 2-stroke oil for a 50:1, 40:1, 32:1, or 25:1 gas mix in ounces and milliliters.

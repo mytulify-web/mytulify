@@ -1,13 +1,13 @@
 ---
 title: "VAT / GST Calculator: Add or extract VAT and GST from any amount with a custom tax rate"
-slug: vat-gst-calculator-guide
-category: utilities
-excerpt: "Use the free VAT / GST Calculator to add or extract VAT and GST from any amount with a custom tax rate."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/vat-gst-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free VAT / GST Calculator to add or extract VAT and GST from any amount with a custom tax rate."
+slug: "vat-gst-calculator-guide"
+category: "utilities"
+excerpt: "Add or extract VAT and GST from any amount with a custom tax rate. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/vat-gst-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Add or extract VAT and GST from any amount with a custom tax rate. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/vat-gst-calculator
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free VAT / GST Calculator to add or extract VAT and GST from any amount with a custom tax rate. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [VAT / GST Calculator](/calculators/vat-gst-calculator).
+[VAT / GST Calculator](/calculators/vat-gst-calculator) is the tool for one job: add or extract VAT and GST from any amount with a custom tax rate. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the VAT / GST Calculator does
+## What to bring to the VAT / GST Calculator
 
-Use the free VAT / GST Calculator to add or extract VAT and GST from any amount with a custom tax rate.
+Choose add or extract, then type the rate. VAT and GST are calculated the same way here: a percent on top, or a percent inside a gross price.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The VAT / GST Calculator only does the job in that first sentence.
+VAT / GST Calculator runs in your browser. The file or the figures stay on your device.
 
-VAT / GST Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the VAT / GST Calculator
 
-## When a VAT / GST Calculator is the right page
+Adding 18% to 100 gives 118. Extracting 18% from 118 gives 100 of net and 18 of tax, because the gross is net times 1.18.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to add or extract VAT and GST from any amount with a custom tax rate. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the VAT / GST Calculator
+If the net and the tax do not add to the gross, you are in the wrong mode.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the VAT / GST Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Add or extract VAT and GST from any amount with a custom tax rate. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Which goods are taxed, and at which rate, is the law where you sell. The page uses the rate you type.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the VAT / GST Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the VAT / GST Calculator do?
 
-## What the VAT / GST Calculator leaves out
+It is there to add or extract VAT and GST from any amount with a custom tax rate. The form on the [VAT / GST Calculator](/calculators/vat-gst-calculator) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the VAT / GST Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+If the net and the tax do not add to the gross, you are in the wrong mode.
 
-## The next tool
+### What should I not trust the VAT / GST Calculator to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+Which goods are taxed, and at which rate, is the law where you sell. The page uses the rate you type.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [VAT / GST Calculator](/calculators/vat-gst-calculator) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a VAT / GST Calculator?
-
-Use the free VAT / GST Calculator to add or extract VAT and GST from any amount with a custom tax rate.
-
-### Is the VAT / GST Calculator free?
-
-VAT / GST Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the VAT / GST Calculator result on its own?
-
-Trust it for the scope in the description: Add or extract VAT and GST from any amount with a custom tax rate. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

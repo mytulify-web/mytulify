@@ -1,13 +1,13 @@
 ---
 title: "Macro Calculator: Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown"
-slug: macro-calculator-guide
-category: health
-excerpt: "Use the free Macro Calculator to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/macro-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Macro Calculator to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown."
+slug: "macro-calculator-guide"
+category: "health"
+excerpt: "Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/macro-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. What to enter, how to check the result, and where it sto"
 relatedToolSlugs:
   - health-tools/macro-calculator
   - health-tools/water-intake-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - health-tools/calories-burned-calculator
 ---
 
-Use the free Macro Calculator to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Macro Calculator](/health-tools/macro-calculator).
+[Macro Calculator](/health-tools/macro-calculator) is the tool for one job: split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Macro Calculator does
+## What to bring to the Macro Calculator
 
-Use the free Macro Calculator to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown.
+Protein, carbohydrate, and fat grams have to add up to the calorie target. Protein and carbohydrate are about 4 kcal per gram. Fat is about 9.
 
-That is the whole scope of the page. It sits in Health & Fitness, the group for fitness, nutrition & wellbeing. The Macro Calculator only does the job in that first sentence.
+Macro Calculator runs in your browser. The file or the figures stay on your device.
 
-Macro Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Macro Calculator
 
-## When a Macro Calculator is the right page
+A 2,000 kcal day with 150 g protein and 70 g fat leaves 2,000 − 600 − 630 = 770 kcal for carbohydrate, about 192 g. A 'low carb' preset moves those grams. It does not change the calorie target unless you change calories.
 
-Use it when you want a personal estimate from the measurements you have today.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Macro Calculator
+Check that grams times their calories land near the daily target. A rounding gap of a few calories is normal. A gap of hundreds means a preset overwrote a field.
 
-Enter height, weight, age, or the other measures the form asks for, in the units printed on the label.
+## Where the Macro Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+It splits calories. It does not prescribe a medical diet.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Read the result next to the formula the page names. A different formula, or a clinician, can land on a different number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Macro Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Macro Calculator do?
 
-## What the Macro Calculator leaves out
+It is there to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. The form on the [Macro Calculator](/health-tools/macro-calculator) page is the place you do that.
 
-This is not a diagnosis, a diet, or a training plan. It does not know injuries, medicine, or lab results you did not type.
+### How do I know the Macro Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Check that grams times their calories land near the daily target. A rounding gap of a few calories is normal. A gap of hundreds means a preset overwrote a field.
 
-## The next tool
+### What should I not trust the Macro Calculator to decide?
 
-Other tools in Health & Fitness include Water Intake Calculator, Heart Rate Zone Calculator, Calories Burned Calculator and One Rep Max Calculator. Open the one whose description matches the next job.
+It splits calories. It does not prescribe a medical diet.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Macro Calculator](/health-tools/macro-calculator) for the job above. Related pages:
-
-- [Water Intake Calculator](/health-tools/water-intake-calculator)
-- [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator)
-- [Calories Burned Calculator](/health-tools/calories-burned-calculator)
-- [One Rep Max Calculator](/health-tools/one-rep-max-calculator)
-
-## Questions people ask
-
-### What is a Macro Calculator?
-
-Use the free Macro Calculator to split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown.
-
-### Is the Macro Calculator free?
-
-Macro Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Macro Calculator result on its own?
-
-Trust it for the scope in the description: Split your daily calories into protein, carbs and fat with diet-style presets and a per-meal breakdown. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Water Intake Calculator](/health-tools/water-intake-calculator) — Estimate your daily water needs based on weight, exercise and climate, shown in litres, cups and bottles.
+- [Heart Rate Zone Calculator](/health-tools/heart-rate-zone-calculator) — Calculate your 5 training heart-rate zones using the Karvonen method with your resting heart rate.
+- [Calories Burned Calculator](/health-tools/calories-burned-calculator) — Estimate calories burned for dozens of activities using MET values, your weight and duration.

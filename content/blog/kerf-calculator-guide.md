@@ -1,13 +1,13 @@
 ---
 title: "Kerf Calculator: See how many pieces a board yields after saw kerf, and how many boards to buy"
-slug: kerf-calculator-guide
-category: home
-excerpt: "Use the free Kerf Calculator to see how many pieces a board yields after saw kerf, and how many boards to buy."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/kerf-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Kerf Calculator to see how many pieces a board yields after saw kerf, and how many boards to buy."
+slug: "kerf-calculator-guide"
+category: "home"
+excerpt: "See how many pieces a board yields after saw kerf, and how many boards to buy. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/kerf-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "See how many pieces a board yields after saw kerf, and how many boards to buy. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - home-trade-calculators/kerf-calculator
   - home-trade-calculators/cfm-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/aquarium-calculator
 ---
 
-Use the free Kerf Calculator to see how many pieces a board yields after saw kerf, and how many boards to buy. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Kerf Calculator](/home-trade-calculators/kerf-calculator).
+[Kerf Calculator](/home-trade-calculators/kerf-calculator) is the tool for one job: see how many pieces a board yields after saw kerf, and how many boards to buy. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Kerf Calculator does
+## What to bring to the Kerf Calculator
 
-Use the free Kerf Calculator to see how many pieces a board yields after saw kerf, and how many boards to buy.
+Kerf is the width the saw blade turns into sawdust. Each cut consumes one kerf. The number of pieces from one board is the usable length divided by piece length plus kerf, with care about the last piece, which may not need a trailing kerf.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The Kerf Calculator only does the job in that first sentence.
+Kerf Calculator runs in your browser. The file or the figures stay on your device.
 
-Kerf Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Kerf Calculator
 
-## When a Kerf Calculator is the right page
+A 96 inch board, 10 inch pieces, and a 1/8 inch kerf does not yield 9.6 pieces. After eight pieces you have used eight lengths and seven or eight kerfs, depending on whether the last cut is required. The page's piece count should be a whole number you can actually cut.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to see how many pieces a board yields after saw kerf, and how many boards to buy. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Kerf Calculator
+Set the kerf to 0. The count should match the board length divided by the piece length, ignoring the blade. Put the kerf back and the count should stay the same or drop.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the Kerf Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: See how many pieces a board yields after saw kerf, and how many boards to buy. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+A bowed board or a trimmed factory end eats length this page does not see.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Kerf Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Kerf Calculator do?
 
-## What the Kerf Calculator leaves out
+It is there to see how many pieces a board yields after saw kerf, and how many boards to buy. The form on the [Kerf Calculator](/home-trade-calculators/kerf-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the Kerf Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Set the kerf to 0. The count should match the board length divided by the piece length, ignoring the blade. Put the kerf back and the count should stay the same or drop.
 
-## The next tool
+### What should I not trust the Kerf Calculator to decide?
 
-Other tools in Home & Trade Calculators include CFM Calculator, kW to kVA Calculator, Aquarium Calculator and Fuel Mix Calculator. Open the one whose description matches the next job.
+A bowed board or a trimmed factory end eats length this page does not see.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Kerf Calculator](/home-trade-calculators/kerf-calculator) for the job above. Related pages:
-
-- [CFM Calculator](/home-trade-calculators/cfm-calculator)
-- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator)
-- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-
-## Questions people ask
-
-### What is a Kerf Calculator?
-
-Use the free Kerf Calculator to see how many pieces a board yields after saw kerf, and how many boards to buy.
-
-### Is the Kerf Calculator free?
-
-Kerf Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Kerf Calculator result on its own?
-
-Trust it for the scope in the description: See how many pieces a board yields after saw kerf, and how many boards to buy. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [CFM Calculator](/home-trade-calculators/cfm-calculator) — Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) — Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+- [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) — Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.

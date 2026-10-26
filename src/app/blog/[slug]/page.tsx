@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { ShareButtons } from "@/components/blog/ShareButtons";
 import { BlogCover } from "@/components/blog/BlogCover";
 import { Icon } from "@/components/ui/Icon";
-import { formatPostDate, getAllPosts, getBlogCategory, getPostBySlug, isTemplateGuide } from "@/lib/blog";
+import { formatPostDate, getAllPosts, getBlogCategory, getPostBySlug } from "@/lib/blog";
 import { getTool, getToolIcon, isToolAvailable, toolHref } from "@/lib/catalog";
 import { site } from "@/lib/site";
 import { englishOnlyPageMeta, clampMetaDescription, clampTitle } from "@/lib/seo";
@@ -24,7 +24,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = getPostBySlug(slug);
-  if (!post) return {};
+  if (!post) notFound();
   const locale = await getMetadataLocale(searchParams);
   const title = clampTitle(`${post.title} | ${site.name}`);
   const description = clampMetaDescription(post.metaDescription || post.excerpt);
@@ -39,7 +39,7 @@ export async function generateMetadata({
   });
   return {
     ...meta,
-    robots: isTemplateGuide(post) ? { index: false, follow: true } : meta.robots,
+    robots: meta.robots,
     openGraph: {
       ...meta.openGraph,
       type: "article",

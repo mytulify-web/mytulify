@@ -1,13 +1,13 @@
 ---
 title: "Aquarium Calculator: Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose"
-slug: aquarium-calculator-guide
-category: home
-excerpt: "Use the free Aquarium Calculator to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/aquarium-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Aquarium Calculator to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose."
+slug: "aquarium-calculator-guide"
+category: "home"
+excerpt: "Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/aquarium-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. What to enter, how to check the result, and where it stops"
 relatedToolSlugs:
   - home-trade-calculators/aquarium-calculator
   - home-trade-calculators/cfm-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - home-trade-calculators/fuel-mix-calculator
 ---
 
-Use the free Aquarium Calculator to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Aquarium Calculator](/home-trade-calculators/aquarium-calculator).
+[Aquarium Calculator](/home-trade-calculators/aquarium-calculator) is the tool for one job: convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Aquarium Calculator does
+## What to bring to the Aquarium Calculator
 
-Use the free Aquarium Calculator to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.
+Volume of a rectangular tank is length times width times height. US gallons are cubic inches divided by 231. Litres are cubic centimetres divided by 1,000.
 
-That is the whole scope of the page. It sits in Home & Trade Calculators, the group for home, workshop, electrical & property. The Aquarium Calculator only does the job in that first sentence.
+Aquarium Calculator runs in your browser. The file or the figures stay on your device.
 
-Aquarium Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Aquarium Calculator
 
-## When a Aquarium Calculator is the right page
+A 48 × 12 × 16 inch tank is 9,216 cubic inches, about 39.9 US gallons. A heater is often sized around a few watts per gallon, and a water change is the percent of that volume you choose.
 
-Use it when you are about to buy material, size a wire, or price a job and you have the measurements.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Aquarium Calculator
+The litre figure times about 0.264 should be near the US gallon figure. Salt dose should scale with the litres or gallons you are treating, not with the empty glass.
 
-Enter length, area, or load in the units on the label. A foot typed into a metre box will order the wrong amount.
+## Where the Aquarium Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Gravel and rocks displace water, so the filled volume is less than the glass volume. Subtract that if you are dosing medicine.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Round up for material you cannot buy in fractions, and keep a waste margin the page does not invent for you.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Aquarium Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Aquarium Calculator do?
 
-## What the Aquarium Calculator leaves out
+It is there to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. The form on the [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) page is the place you do that.
 
-Codes, span tables, and the product you buy can require a stricter number than this estimate. This page does not replace a licensed tradesperson where the work can injure someone.
+### How do I know the Aquarium Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+The litre figure times about 0.264 should be near the US gallon figure. Salt dose should scale with the litres or gallons you are treating, not with the empty glass.
 
-## The next tool
+### What should I not trust the Aquarium Calculator to decide?
 
-Other tools in Home & Trade Calculators include CFM Calculator, kW to kVA Calculator, Fuel Mix Calculator and BTU Calculator. Open the one whose description matches the next job.
+Gravel and rocks displace water, so the filled volume is less than the glass volume. Subtract that if you are dosing medicine.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Aquarium Calculator](/home-trade-calculators/aquarium-calculator) for the job above. Related pages:
-
-- [CFM Calculator](/home-trade-calculators/cfm-calculator)
-- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator)
-- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator)
-- [BTU Calculator](/home-trade-calculators/btu-calculator)
-
-## Questions people ask
-
-### What is a Aquarium Calculator?
-
-Use the free Aquarium Calculator to convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose.
-
-### Is the Aquarium Calculator free?
-
-Aquarium Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Aquarium Calculator result on its own?
-
-Trust it for the scope in the description: Convert tank dimensions to gallons and liters, plus heater watts, water-change volume, and salt dose. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [CFM Calculator](/home-trade-calculators/cfm-calculator) — Calculate airflow CFM from room volume and air changes per hour for a fan, hood, or workshop.
+- [kW to kVA Calculator](/home-trade-calculators/kw-to-kva-calculator) — Convert kilowatts to kVA with power factor, and estimate single-phase or three-phase amps.
+- [Fuel Mix Calculator](/home-trade-calculators/fuel-mix-calculator) — Calculate 2-stroke oil for a 50:1, 40:1, 32:1, or 25:1 gas mix in ounces and milliliters.

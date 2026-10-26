@@ -1,13 +1,13 @@
 ---
 title: "Rotate Image: Rotate an image by 90 degrees or any angle"
-slug: rotate-image-guide
-category: photos-design
-excerpt: "Use the free Rotate Image to rotate an image by 90 degrees or any angle."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/rotate-image-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Rotate Image to rotate an image by 90 degrees or any angle."
+slug: "rotate-image-guide"
+category: "photos-design"
+excerpt: "Rotate an image by 90 degrees or any angle. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/rotate-image-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Rotate an image by 90 degrees or any angle. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - image-tools/rotate-image
   - image-tools/webp-to-png
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - image-tools/jpg-to-png
 ---
 
-Use the free Rotate Image to rotate an image by 90 degrees or any angle. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Rotate Image](/image-tools/rotate-image).
+[Rotate Image](/image-tools/rotate-image) is the tool for one job: rotate an image by 90 degrees or any angle. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Rotate Image does
+## What to bring to the Rotate Image
 
-Use the free Rotate Image to rotate an image by 90 degrees or any angle.
+Use the original image. Rotate an image by 90 degrees or any angle.
 
-That is the whole scope of the page. It sits in Image Tools, the group for resize, compress & convert images. The Rotate Image only does the job in that first sentence.
+Rotate Image runs in your browser. The file or the figures stay on your device.
 
-Rotate Image runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Rotate Image
 
-## When a Rotate Image is the right page
+A 90 degree turn swaps width and height. An arbitrary angle leaves triangular corners that are empty. Those corners are part of the new canvas.
 
-Use it when you have the picture and you need a different size, format, or crop.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to rotate an image by 90 degrees or any angle. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Rotate Image
+Compare the download with the original at 100% zoom on the part you care about: a face, a line of text, or the edge of the crop.
 
-Upload the original, not a screenshot of a screenshot, if you still have it.
+## Where the Rotate Image stops
 
-Run it once with the values you have. The result should line up with this promise: Rotate an image by 90 degrees or any angle. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Rotate Image changes the copy you download. It does not edit the file still sitting in your folder until you replace it.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Look at the edges and the file size of the download. Smaller files throw away detail on purpose.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Rotate Image is ready to copy only after you have checked it against the labels on this page.
+### What does the Rotate Image do?
 
-## What the Rotate Image leaves out
+It is there to rotate an image by 90 degrees or any angle. The form on the [Rotate Image](/image-tools/rotate-image) page is the place you do that.
 
-The page cannot recover pixels that were never in the file you uploaded.
+### How do I know the Rotate Image result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Compare the download with the original at 100% zoom on the part you care about: a face, a line of text, or the edge of the crop.
 
-## The next tool
+### What should I not trust the Rotate Image to decide?
 
-Other tools in Image Tools include WebP to PNG, WebP to JPG, JPG to PNG and HEIC to JPG. Open the one whose description matches the next job.
+Rotate Image changes the copy you download. It does not edit the file still sitting in your folder until you replace it.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Rotate Image](/image-tools/rotate-image) for the job above. Related pages:
-
-- [WebP to PNG](/image-tools/webp-to-png)
-- [WebP to JPG](/image-tools/webp-to-jpg)
-- [JPG to PNG](/image-tools/jpg-to-png)
-- [HEIC to JPG](/image-tools/heic-to-jpg)
-
-## Questions people ask
-
-### What is a Rotate Image?
-
-Use the free Rotate Image to rotate an image by 90 degrees or any angle.
-
-### Is the Rotate Image free?
-
-Rotate Image runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Rotate Image result on its own?
-
-Trust it for the scope in the description: Rotate an image by 90 degrees or any angle. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [WebP to PNG](/image-tools/webp-to-png) — Convert WebP images to lossless PNG format.
+- [WebP to JPG](/image-tools/webp-to-jpg) — Convert WebP images to widely supported JPG.
+- [JPG to PNG](/image-tools/jpg-to-png) — Convert JPG images to lossless PNG format.

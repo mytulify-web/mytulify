@@ -1,13 +1,13 @@
 ---
 title: "Case Converter: Convert text to UPPERCASE, lowercase, Title Case, Sentence case and more"
-slug: case-converter-guide
-category: writing
-excerpt: "Use the free Case Converter to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/case-converter-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Case Converter to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more."
+slug: "case-converter-guide"
+category: "writing"
+excerpt: "Convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/case-converter-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - text-tools/case-converter
   - text-tools/character-counter
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - text-tools/remove-line-breaks
 ---
 
-Use the free Case Converter to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Case Converter](/text-tools/case-converter).
+[Case Converter](/text-tools/case-converter) is the tool for one job: convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Case Converter does
+## What to bring to the Case Converter
 
-Use the free Case Converter to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more.
+Paste the text you want changed. The box is the whole input.
 
-That is the whole scope of the page. It sits in Text Tools, the group for write, clean & transform text. The Case Converter only does the job in that first sentence.
+Case Converter runs in your browser. The file or the figures stay on your device.
 
-Case Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Case Converter
 
-## When a Case Converter is the right page
+Title case and sentence case follow different rules. Title case capitalizes most words. Sentence case capitalizes the first word and the word after a full stop. Names will be wrong if the tool does not know they are names.
 
-Use it when the text is already in front of you and you need a count, a cleanup, or a different shape.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Case Converter
+For a transform, run it and spot one line. For a count, count one sentence yourself and compare.
 
-Paste the passage you want changed. The tool only sees that box.
+## Where the Case Converter stops
 
-Run it once with the values you have. The result should line up with this promise: Convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+Case Converter sees the text in the box. It does not open a file on your computer until you paste or upload.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Scan the output against the original. A formatter can move line breaks even when the words stay the same.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Case Converter is ready to copy only after you have checked it against the labels on this page.
+### What does the Case Converter do?
 
-## What the Case Converter leaves out
+It is there to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. The form on the [Case Converter](/text-tools/case-converter) page is the place you do that.
 
-It does not open a file on your computer until you paste or upload, and it does not guess text you left out.
+### How do I know the Case Converter result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+For a transform, run it and spot one line. For a count, count one sentence yourself and compare.
 
-## The next tool
+### What should I not trust the Case Converter to decide?
 
-Other tools in Text Tools include Character Counter, Lorem Ipsum Generator, Remove Line Breaks and Remove Extra Spaces. Open the one whose description matches the next job.
+Case Converter sees the text in the box. It does not open a file on your computer until you paste or upload.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Case Converter](/text-tools/case-converter) for the job above. Related pages:
-
-- [Character Counter](/text-tools/character-counter)
-- [Lorem Ipsum Generator](/text-tools/lorem-ipsum-generator)
-- [Remove Line Breaks](/text-tools/remove-line-breaks)
-- [Remove Extra Spaces](/text-tools/remove-extra-spaces)
-
-## Questions people ask
-
-### What is a Case Converter?
-
-Use the free Case Converter to convert text to UPPERCASE, lowercase, Title Case, Sentence case and more.
-
-### Is the Case Converter free?
-
-Case Converter runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Case Converter result on its own?
-
-Trust it for the scope in the description: Convert text to UPPERCASE, lowercase, Title Case, Sentence case and more. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Character Counter](/text-tools/character-counter) — Count characters with and without spaces in real time for tweets and bios.
+- [Lorem Ipsum Generator](/text-tools/lorem-ipsum-generator) — Generate placeholder dummy text by paragraphs, sentences or words.
+- [Remove Line Breaks](/text-tools/remove-line-breaks) — Strip or merge line breaks and extra newlines from pasted text.

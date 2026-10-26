@@ -1,13 +1,13 @@
 ---
 title: "Body Fat Calculator: Estimate body fat percentage using the US Navy method measurements"
-slug: body-fat-calculator-guide
-category: health
-excerpt: "Use the free Body Fat Calculator to estimate body fat percentage using the US Navy method measurements."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/body-fat-calculator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free Body Fat Calculator to estimate body fat percentage using the US Navy method measurements."
+slug: "body-fat-calculator-guide"
+category: "health"
+excerpt: "Estimate body fat percentage using the US Navy method measurements. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/body-fat-calculator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Estimate body fat percentage using the US Navy method measurements. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - calculators/body-fat-calculator
   - calculators/age-calculator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - calculators/tip-calculator
 ---
 
-Use the free Body Fat Calculator to estimate body fat percentage using the US Navy method measurements. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [Body Fat Calculator](/calculators/body-fat-calculator).
+[Body Fat Calculator](/calculators/body-fat-calculator) is the tool for one job: estimate body fat percentage using the US Navy method measurements. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the Body Fat Calculator does
+## What to bring to the Body Fat Calculator
 
-Use the free Body Fat Calculator to estimate body fat percentage using the US Navy method measurements.
+The US Navy method uses height, neck, and waist, plus hip for women. Measure in the units the label names, without pulling the tape tight.
 
-That is the whole scope of the page. It sits in Calculators, the group for finance, health & math. The Body Fat Calculator only does the job in that first sentence.
+Body Fat Calculator runs in your browser. The file or the figures stay on your device.
 
-Body Fat Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the Body Fat Calculator
 
-## When a Body Fat Calculator is the right page
+A smaller waist or a larger neck lowers the estimate for men. Measure at the same time of day if you are comparing two weeks, because food and water move the waist.
 
-Use it when you already have the inputs named in the description and you want that result on one page.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to estimate body fat percentage using the US Navy method measurements. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the Body Fat Calculator
+Repeat the waist measurement once. If the two tapes differ by more than about a centimetre, the body-fat number will move with them.
 
-Type each figure into the field that names it, in the unit printed on the label.
+## Where the Body Fat Calculator stops
 
-Run it once with the values you have. The result should line up with this promise: Estimate body fat percentage using the US Navy method measurements. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+This is not a DEXA scan. It is a circumference estimate.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Change one input and see which line moves before you copy the number.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the Body Fat Calculator is ready to copy only after you have checked it against the labels on this page.
+### What does the Body Fat Calculator do?
 
-## What the Body Fat Calculator leaves out
+It is there to estimate body fat percentage using the US Navy method measurements. The form on the [Body Fat Calculator](/calculators/body-fat-calculator) page is the place you do that.
 
-The page only applies the rule in the description. A clinic, a school, a lender, or a tax office may use a different rule.
+### How do I know the Body Fat Calculator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+Repeat the waist measurement once. If the two tapes differ by more than about a centimetre, the body-fat number will move with them.
 
-## The next tool
+### What should I not trust the Body Fat Calculator to decide?
 
-Other tools in Calculators include Age Calculator, Compound Interest Calculator, Tip Calculator and Discount Calculator. Open the one whose description matches the next job.
+This is not a DEXA scan. It is a circumference estimate.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [Body Fat Calculator](/calculators/body-fat-calculator) for the job above. Related pages:
-
-- [Age Calculator](/calculators/age-calculator)
-- [Compound Interest Calculator](/calculators/compound-interest-calculator)
-- [Tip Calculator](/calculators/tip-calculator)
-- [Discount Calculator](/calculators/discount-calculator)
-
-## Questions people ask
-
-### What is a Body Fat Calculator?
-
-Use the free Body Fat Calculator to estimate body fat percentage using the US Navy method measurements.
-
-### Is the Body Fat Calculator free?
-
-Body Fat Calculator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the Body Fat Calculator result on its own?
-
-Trust it for the scope in the description: Estimate body fat percentage using the US Navy method measurements. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [Age Calculator](/calculators/age-calculator) — Compute exact age in years, months, weeks, and days from a date of birth.
+- [Compound Interest Calculator](/calculators/compound-interest-calculator) — Project investment growth with compounding over time and contributions.
+- [Tip Calculator](/calculators/tip-calculator) — Calculate tip amount and split the total bill among multiple people.

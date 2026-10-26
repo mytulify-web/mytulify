@@ -1,13 +1,13 @@
 ---
 title: "TOTP / 2FA Code Generator: Generate time-based OTP codes from a secret for 2FA testing"
-slug: totp-generator-guide
-category: developer
-excerpt: "Use the free TOTP / 2FA Code Generator to generate time-based OTP codes from a secret for 2FA testing."
-publishedDate: 2026-10-01
-updatedDate: 2026-10-01
-featuredImage: /blog/covers/totp-generator-guide.svg
-author: Mytulify Team
-metaDescription: "Use the free TOTP / 2FA Code Generator to generate time-based OTP codes from a secret for 2FA testing."
+slug: "totp-generator-guide"
+category: "developer"
+excerpt: "Generate time-based OTP codes from a secret for 2FA testing. What to enter, how to check the result, and where it stops."
+publishedDate: "2026-10-01"
+updatedDate: "2026-10-23"
+featuredImage: "/blog/covers/totp-generator-guide.svg"
+author: "Mytulify Team"
+metaDescription: "Generate time-based OTP codes from a secret for 2FA testing. What to enter, how to check the result, and where it stops."
 relatedToolSlugs:
   - security-password-tools/totp-generator
   - security-password-tools/md5-hash-generator
@@ -15,63 +15,46 @@ relatedToolSlugs:
   - security-password-tools/secure-uuid-generator
 ---
 
-Use the free TOTP / 2FA Code Generator to generate time-based OTP codes from a secret for 2FA testing. This guide explains that job, how to run it, and what the result does not include. The tool itself is here: [TOTP / 2FA Code Generator](/security-password-tools/totp-generator).
+[TOTP / 2FA Code Generator](/security-password-tools/totp-generator) is the tool for one job: generate time-based OTP codes from a secret for 2FA testing. This guide covers the inputs to gather, one pass you can check, and the point where the result stops being enough.
 
-## What the TOTP / 2FA Code Generator does
+## What to bring to the TOTP / 2FA Code Generator
 
-Use the free TOTP / 2FA Code Generator to generate time-based OTP codes from a secret for 2FA testing.
+Type the value in the form. Do not use a real password as a test on any tool that sends data to a server.
 
-That is the whole scope of the page. It sits in Security & Password Tools, the group for passwords, hashing & crypto. The TOTP / 2FA Code Generator only does the job in that first sentence.
+TOTP / 2FA Code Generator runs in your browser. The file or the figures stay on your device.
 
-TOTP / 2FA Code Generator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
+## A worked pass with the TOTP / 2FA Code Generator
 
-## When a TOTP / 2FA Code Generator is the right page
+A TOTP code is 6 digits from a shared secret and the current 30 second window. The same secret in an authenticator app should show the same code if the clocks match. This is for a secret you are allowed to test.
 
-Use it when you need a password, a hash, or a check that should not leave the browser.
+Do that pass with a case you already understand. Then replace it with the real case. Changing one input at a time is how you see which field actually moved the result.
 
-Open it when you need to generate time-based OTP codes from a secret for 2FA testing. If you need a different output, pick the tool whose description names that output.
+## How to check the result
 
-## How to use the TOTP / 2FA Code Generator
+For a hash, change one character of the input. The digest should change completely. For a generator, generate twice and expect two different outputs.
 
-Type the value in the form. Do not reuse a real password as a test if the page says the work is sent to a server.
+## Where the TOTP / 2FA Code Generator stops
 
-Run it once with the values you have. The result should line up with this promise: Generate time-based OTP codes from a secret for 2FA testing. Change one field if you want a second case, and keep the other fields the same so you can see what moved.
+TOTP / 2FA Code Generator performs the operation on this page. It does not audit an account or a server.
 
-## How to read the result
+If your decision depends on a rule this page does not mention, a lender, a clinic, a teacher, a client, or the vendor of the file, use their rule. Keep this result as the draft you compare against that rule.
 
-Copy the result into a password manager or the field that asked for it, then clear the box.
+## Questions
 
-Keep the units, the dates, and the file type that the form showed. A number from the TOTP / 2FA Code Generator is ready to copy only after you have checked it against the labels on this page.
+### What does the TOTP / 2FA Code Generator do?
 
-## What the TOTP / 2FA Code Generator leaves out
+It is there to generate time-based OTP codes from a secret for 2FA testing. The form on the [TOTP / 2FA Code Generator](/security-password-tools/totp-generator) page is the place you do that.
 
-A hash or a generator here does not prove an account is secure. It only does the operation in the description.
+### How do I know the TOTP / 2FA Code Generator result is usable?
 
-Anything the description does not mention is outside this tool. Use the result as the estimate or the file this page promised, then check the source that actually applies to your bank, school, client, or project.
+For a hash, change one character of the input. The digest should change completely. For a generator, generate twice and expect two different outputs.
 
-## The next tool
+### What should I not trust the TOTP / 2FA Code Generator to decide?
 
-Other tools in Security & Password Tools include MD5 Hash Generator, SHA-256 Hash Generator, Secure UUID Generator and Password Generator. Open the one whose description matches the next job.
+TOTP / 2FA Code Generator performs the operation on this page. It does not audit an account or a server.
 
-## Run it, then continue
+## When the next step is a different tool
 
-Use the [TOTP / 2FA Code Generator](/security-password-tools/totp-generator) for the job above. Related pages:
-
-- [MD5 Hash Generator](/security-password-tools/md5-hash-generator)
-- [SHA-256 Hash Generator](/security-password-tools/sha256-hash-generator)
-- [Secure UUID Generator](/security-password-tools/secure-uuid-generator)
-- [Password Generator](/security-password-tools/password-generator)
-
-## Questions people ask
-
-### What is a TOTP / 2FA Code Generator?
-
-Use the free TOTP / 2FA Code Generator to generate time-based OTP codes from a secret for 2FA testing.
-
-### Is the TOTP / 2FA Code Generator free?
-
-TOTP / 2FA Code Generator runs in your browser. The file or the figures stay on your device, and the free plan does not ask you to create an account.
-
-### Can I trust the TOTP / 2FA Code Generator result on its own?
-
-Trust it for the scope in the description: Generate time-based OTP codes from a secret for 2FA testing. If your case depends on a rule this page never states, check that rule before you act on the number or the file.
+- [MD5 Hash Generator](/security-password-tools/md5-hash-generator) — Compute the MD5 hash of any input text.
+- [SHA-256 Hash Generator](/security-password-tools/sha256-hash-generator) — Generate SHA-256 hashes via the Web Crypto API.
+- [Secure UUID Generator](/security-password-tools/secure-uuid-generator) — Generate cryptographically secure v4 UUIDs.
